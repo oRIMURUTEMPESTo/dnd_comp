@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "973818078815",
+    "project_id": "dnd-spellbook-carlos",
+    "storage_bucket": "dnd-spellbook-carlos.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973818078815:android:6486df91fe6ba6dd7cddea",
+        "android_client_info": {
+          "package_name": "com.example.dnddichas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEazoLHR7_6Sik9WY8_MnvS9JZWwnctAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

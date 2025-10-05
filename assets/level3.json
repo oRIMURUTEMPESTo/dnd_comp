@@ -1,0 +1,1301 @@
+[
+    {
+        "id": "animate-dead",
+        "name": "Animar a los muertos",
+        "level": 3,
+        "school": "Necromancy",
+        "castingTime": "1 minute",
+        "range": "10 feet",
+        "components": "V, S, M",
+        "duration": "Instantaneous",
+        "description": "Este conjuro crea un sirviente no muerto. Elige un montón de huesos o un cadáver de un humanoide Mediano o Pequeño dentro de tu alcance. Tu conjuro imbuye al objetivo con una mala imitación de la vida, levantándolo como una criatura no muerta. El objetivo se convierte en un esqueleto si elegiste huesos o en un zombi si elegiste un cadáver (el DM tiene las estadísticas de juego de la criatura). En cada uno de tus turnos, puedes usar una **acción adicional** para dar órdenes mentales a cualquier criatura que hayas animado con este conjuro si la criatura está a menos de 60 pies de ti (si controlas varias criaturas, puedes ordenarlas a todas al mismo tiempo, emitiendo el mismo comando a cada una). Tú decides qué acción tomará la criatura y adónde se moverá durante su próximo turno, o puedes emitir una orden general, como proteger una estancia o pasillo en particular. Una vez dada una orden, la criatura continúa siguiéndola hasta que se completa su tarea. La criatura está bajo tu control durante 24 horas, después de lo cual deja de obedecer cualquier orden que le hayas dado. Para mantener el control de la criatura por otras 24 horas, debes lanzar este conjuro de nuevo sobre la criatura antes de que el período actual de 24 horas termine. Este uso del conjuro reafirma tu control sobre hasta cuatro criaturas que has animado con este conjuro, en lugar de animar a una nueva.",
+        "higherLevel": "Cuando lanzas este conjuro usando una ranura de conjuro de 4º nivel o superior, animas o reafirmas el control sobre dos criaturas no muertas adicionales por cada nivel de ranura por encima de 3º. Cada una de las criaturas debe provenir de un cuerpo o pila de huesos diferente.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "beacon-of-hope",
+        "name": "Faro de esperanza",
+        "level": 3,
+        "school": "Abjuración",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "V, S",
+        "duration": "Up to 1 minute",
+        "description": "Este conjuro otorga esperanza y vitalidad. Elige cualquier número de criaturas dentro del rango. Durante la duración, cada objetivo tiene **ventaja** en las tiradas de salvación de Sabiduría y las tiradas de salvación contra la muerte, y recupera el número máximo posible de puntos de golpe de cualquier curación.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "bestow-curse",
+        "name": "Lanzar maldición",
+        "level": 3,
+        "school": "Necromancy",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S",
+        "duration": "Up to 1 minute",
+        "description": "Tocasa una criatura, y esa criatura debe tener éxito en una tirada de salvación de Sabiduría o quedará maldita durante la duración del conjuro. Cuando lanzas este conjuro, elige la naturaleza de la maldición de las siguientes opciones: - Elige una puntuación de característica. Mientras esté maldito, el objetivo tiene **desventaja** en las pruebas de característica y en las tiradas de salvación hechas con esa puntuación de característica. - Mientras esté maldito, el objetivo tiene **desventaja** en las tiradas de ataque. - Mientras el objetivo está maldito, tus ataques y conjuros le causan 1d8 de daño necrótico extra al objetivo. Un conjuro de *Eliminar maldición* termina este efecto. A opción del DM, puedes elegir un efecto de maldición alternativo, pero no debe ser más poderoso que estos. El DM tiene la última palabra sobre el efecto de dicha maldición.",
+        "higherLevel": "Si lanzas este conjuro usando una ranura de conjuro de 4º nivel o superior, la duración es de concentración, hasta 10 minutos. Si usas una ranura de conjuro de 5º nivel o superior, la duración es de 8 horas. Si usas una ranura de conjuro de 7º nivel o superior, la duración es de 24 horas. Si usas una ranura de conjuro de 9º nivel, el conjuro dura hasta que se disipa. Usar una ranura de conjuro de 5º nivel o superior otorga una duración que no requiere concentración.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "blink",
+        "name": "Parpadeo",
+        "level": 3,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S",
+        "duration": "1 minute",
+        "description": "Tira un d20 al final de cada uno de tus turnos durante la duración del conjuro. Con un resultado de 11 o más, desapareces de tu plano de existencia actual y apareces en el Plano Etéreo (el conjuro falla y el lanzamiento se desperdicia si ya estabas en ese plano). Al comienzo de tu siguiente turno, y cuando el conjuro termina si estás en el Plano Etéreo, regresas a un espacio desocupado de tu elección dentro de un rango de 10 pies de donde desapareciste. Si no hay espacio desocupado disponible dentro de ese rango, apareces en el espacio desocupado más cercano (elegido al azar si varios espacios están igualmente cerca). Puedes descartar este conjuro como una **acción**. Mientras estás en el Plano Etéreo, puedes ver y oír el plano del que te originaste, el cual se ve en tonos grises, y no puedes ver nada más. Solo puedes afectar y ser afectado por otras criaturas en el Plano Etéreo. Las criaturas que no están allí no pueden percibirte o interactuar contigo, a menos que tengan la capacidad de hacerlo.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "call-lightning",
+        "name": "Invocar relámpagos",
+        "level": 3,
+        "school": "Conjuración",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Up to 10 minutes",
+        "description": "Una nube de tormenta aparece en forma de un cilindro de 10 pies de altura con un radio de 60 pies, centrado en un punto que puedes ver 100 pies directamente sobre ti. El conjuro falla si no puedes ver un punto en el aire donde la nube de tormenta podría aparecer (por ejemplo, si estás en una habitación que no puede acomodar la nube). Cada criatura a menos de 5 pies de ese punto debe hacer una tirada de salvación de Destreza. Una criatura recibe 3d10 de daño de relámpago si falla la salvación, o la mitad de daño si tiene éxito. En cada uno de tus turnos hasta que el conjuro termine, puedes usar tu **acción** para invocar relámpagos de esta manera de nuevo, apuntando al mismo punto o a uno diferente. Si estás al aire libre en condiciones de tormenta cuando lanzas este conjuro, el conjuro te da control sobre la tormenta existente en lugar de crear una nueva. Bajo tales condiciones, el daño del conjuro aumenta en 1d10.",
+        "higherLevel": "Cuando se lanza este conjuro usando una ranura de conjuro de 4º nivel o superior, el daño aumenta en 1d10 por cada nivel de ranura por encima de 3º.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "3": "3d10",
+            "4": "4d10",
+            "5": "5d10",
+            "6": "6d10",
+            "7": "7d10",
+            "8": "8d10",
+            "9": "9d10"
+        },
+        "classes": [
+            "Druida"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "clairvoyance",
+        "name": "Clarividencia",
+        "level": 3,
+        "school": "Divinización",
+        "castingTime": "10 minutes",
+        "range": "1 mile",
+        "components": "V, S, M",
+        "duration": "Up to 10 minutes",
+        "description": "Creas un sensor invisible dentro de tu alcance en una ubicación que te es familiar (un lugar que has visitado o visto antes) o en una ubicación obvia con la que no estás familiarizado (como detrás de una puerta, a la vuelta de una esquina o en un bosque de árboles). El sensor permanece en su lugar durante la duración, y no puede ser atacado o interactuado de otra manera. e el sentido elegido a través del sensor como si estuvieras en su espacio. Como tu acción, puedes cambiar entre ver y oír. Una criatura que puede ver el sensor (como una criatura que se beneficia de la capacidad de ver la invisibilidad o la visión verdadera) ve un orbe luminoso e intangible del tamaño de tu puño.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "conjure-animals",
+        "name": "Conjurar animales",
+        "level": 3,
+        "school": "Conjuración",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "Up to 1 hour",
+        "description": "Convocas a espíritus feéricos que toman la forma de bestias y aparecen en espacios desocupados que puedes ver dentro del rango. Elige una de las siguientes opciones para lo que aparece: - Una bestia de Clasificación de Desafío 2 o inferior - Dos bestias de Clasificación de Desafío 1 o inferior - Cuatro bestias de Clasificación de Desafío 1/2 o inferior - Ocho bestias de Clasificación de Desafío 1/4 o inferior - Cada bestia también se considera feérica, y desaprueba Las criaturas convocadas son amistosas contigo y tus compañeros. Tira la iniciativa para las criaturas convocadas como un grupo, que tienen sus propios turnos. Obedecen cualquier orden verbal que les emitas (no requiere acción de tu parte). Si no les emites ninguna orden, se defienden de las criaturas hostiles, pero por lo demás no toman acción. El DM tiene las estadísticas de las criaturas.",
+        "higherLevel": "Cuando lanzas este conjuro usando ciertas ranuras de conjuro de nivel superior, eliges una de las opciones de convocatoria anteriores, y aparecen más criaturas: el doble con una ranura de 5º nivel, tres veces más con una ranura de 7º nivel.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida",
+            "Explorador"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "counterspell",
+        "name": "Contrahechizo",
+        "level": 3,
+        "school": "Abjuración",
+        "castingTime": "1 reaction",
+        "range": "60 feet",
+        "components": "S",
+        "duration": "Instantaneous",
+        "description": "Intentas interrumpir a una criatura en el proceso de lanzar un conjuro. Si la criatura está lanzando un conjuro de 3er nivel o inferior, tu conjuro falla y no tiene efecto. Si está lanzando un conjuro de 4º nivel o superior, haz una prueba de habilidad usando tu habilidad de lanzamiento de conjuros. La CD es igual a 10 + el nivel del conjuro. Con un éxito, el conjuro de la criatura falla y no tiene efecto.",
+        "higherLevel": "Cuando lanzas este conjuro usando una ranura de conjuro de 4º nivel o superior, el conjuro interrumpido no tiene efecto si su nivel es menor o igual al nivel de la ranura de conjuro que utilizaste.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "create-food-and-water",
+        "name": "Crear comida y agua",
+        "level": 3,
+        "school": "Conjuración",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Creas 45 libras de comida y 30 galones de agua en el suelo o en contenedores dentro de tu alcance, suficiente para sostener hasta quince humanoides o cinco corceles durante 24 horas. La comida es insípida pero nutritiva, y se estropea si no se come después de 24 horas. El agua está limpia y no se estropea.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Paladín"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "daylight",
+        "name": "Luz del día",
+        "level": 3,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "1 hour",
+        "description": "Una esfera de luz de 60 pies de radio se extiende desde un punto que eliges dentro del rango. La esfera es **luz brillante** y arroja **luz tenue** por otros 60 pies. Si eliges un punto en un objeto que estás sosteniendo o uno que no está siendo usado o llevado, la luz brilla desde el objeto y se mueve con él. Cubrir completamente el objeto afectado con un objeto opaco, como un cuenco o un yelmo, bloquea la luz. Si alguna de las áreas de este conjuro se superpone con un área de oscuridad creada por un conjuro de 3er nivel o inferior, el conjuro que creó la oscuridad se disipa.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Paladín",
+            "Explorador",
+            "Hechicero"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "dispel-magic",
+        "name": "Disipar magia",
+        "level": 3,
+        "school": "Abjuración",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Elige una criatura, objeto o efecto mágico dentro del rango. Cualquier conjuro de 3er nivel o inferior en el objetivo termina. Para cada conjuro de 4º nivel o superior en el objetivo, haz una prueba de habilidad usando tu habilidad de lanzamiento de conjuros. La CD es igual a 10 + el nivel del conjuro. En una prueba exitosa, el conjuro termina.",
+        "higherLevel": "Cuando lanzas este conjuro usando una ranura para conjuros de 4º nivel o superior, terminas automáticamente los efectos de un conjuro en el objetivo si el nivel del conjuro es igual o inferior al nivel de la ranura para conjuros que usaste.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Druida",
+            "Paladín",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "fear",
+        "name": "Miedo",
+        "level": 3,
+        "school": "Ilusión",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Proyectas una imagen fantasmal de los peores miedos de una criatura. Cada criatura en un cono de 30 pies debe tener éxito en una tirada de salvación de Sabiduría o soltar lo que esté sosteniendo y quedar **asustada** durante la duración. Mientras esté asustada por este conjuro, una criatura debe tomar la acción de **Retirada** y alejarse de ti por la ruta más segura disponible en cada uno de sus turnos, a menos que no haya dónde moverse. Si la criatura termina su turno en un lugar donde no tiene línea de visión hacia ti, la criatura puede hacer una tirada de salvación de Sabiduría. Con una salvación exitosa, el conjuro termina para esa criatura.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "fireball",
+        "name": "Bola de fuego",
+        "level": 3,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "150 feet",
+        "components": "V, S, M",
+        "duration": "Instantaneous",
+        "description": "Una brillante racha parpadea desde tu dedo apuntando a un punto que eliges dentro del rango y luego florece con un rugido bajo en una explosión de llama. Cada criatura en una esfera de 20 pies de radio centrada en ese punto debe hacer una tirada de salvación de Destreza. Un objetivo recibe 8d6 de daño de fuego si falla la salvación, o la mitad de daño si tiene éxito. El fuego se extiende alrededor de las esquinas. s en el área que no están siendo usados o transportados.",
+        "higherLevel": "Cuando se lanza este conjuro usando una ranura de conjuro de 4º nivel o superior, el daño aumenta en 1d6 por cada nivel de ranura por encima de 3º.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": {
+            "3": "8d6",
+            "4": "9d6",
+            "5": "10d6",
+            "6": "11d6",
+            "7": "12d6",
+            "8": "13d6",
+            "9": "14d6"
+        },
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "fly",
+        "name": "Volar",
+        "level": 3,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "Up to 10 minutes",
+        "description": "Tocasa una criatura dispuesta. El objetivo gana una velocidad de vuelo de 60 pies durante la duración. Cuando el conjuro termina, el objetivo cae si todavía está en el aire, a menos que pueda detener la caída.",
+        "higherLevel": "Cuando lanzas este conjuro usando una ranura de conjuro de 4º nivel o superior, puedes apuntar a una criatura adicional por cada nivel de ranura por encima de 3º.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "gaseous-form",
+        "name": "Forma gaseosa",
+        "level": 3,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "Up to 1 hour",
+        "description": "Transformas a una criatura dispuesta que tocas, junto con todo lo que lleva y porta, en una nube nebulosa durante toda la duración. El conjuro termina si la criatura cae a 0 puntos de golpe. Una criatura incorpórea no se ve afectada. Mientras está en esta forma, el único método de movimiento del objetivo es una velocidad de vuelo de 10 pies. El objetivo puede entrar y ocupar el espacio de otra criatura. El objetivo tiene **resistencia** al daño no mágico. El objetivo puede pasar a través de pequeños agujeros, aberturas estrechas e incluso meras grietas, aunque trata los líquidos como si fueran superficies sólidas. El objetivo no puede caer y permanece flotando en el aire incluso cuando está aturdido o incapacitado de otra manera. Mientras está en forma de nube de niebla, el objetivo no puede hablar ni manipular objetos, y cualquier objeto que porte o sostenga no puede ser lanzado, usado o interactuado de otro modo. El objetivo no puede atacar ni lanzar conjuros.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "glyph-of-warding",
+        "name": "Glifo de guarda",
+        "level": 3,
+        "school": "Abjuración",
+        "castingTime": "1 hour",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "Until dispelled",
+        "description": "Cuando lanzas este conjuro, inscribes un glifo que daña a otras criaturas, ya sea sobre una superficie (como una mesa o una sección de suelo o pared) o dentro de un objeto que puede cerrarse (como un libro, un pergamino o un cofre del tesoro) para ocultar el glifo. Si eliges una superficie, el glifo puede cubrir un área de la superficie no mayor de 10 pies de diámetro. Si eliges un objeto, ese objeto debe permanecer en su lugar; si el objeto se mueve a más de 10 pies de donde se lanza este conjuro, el glifo se rompe y el conjuro termina sin ser activado. El glifo es casi invisible y requiere una prueba de Inteligencia (Investigación) exitosa contra tu CD de salvación de conjuros para ser encontrado. Tú decides qué desencadena el glifo cuando se lanza el conjuro. Para los glifos inscritos en una superficie, los desencadenantes más típicos incluyen tocar o pararse en el glifo, quitar otro objeto que cubra el glifo, acercarse a cierta distancia del glifo, o manipular el objeto en el que está inscrito el glifo. Para los glifos inscritos dentro de un objeto, los desencadenantes más comunes incluyen abrir ese objeto, acercarse a cierta distancia del objeto, o ver o leer el glifo. se activa, este conjuro termina. Puedes refinar aún más el disparador para que el conjuro se active solo en ciertas circunstancias o de acuerdo con las características físicas (como altura o peso), tipo de criatura (por ejemplo, el pabellón podría estar configurado para afectar a aberraciones o somnolencia), o alineamiento. También puedes establecer condiciones para las criaturas que no disparen el glifo, como aquellas que dicen una cierta contraseña. Cuando inscribes el glifo, eliges ***Runas explosivas*** o un ***Glifo de conjuro***. ***Runas explosivas.*** Cuando se activa, el glifo estalla con energía mágica en una esfera de 20 pies de radio centrada en el glifo. La esfera se extiende alrededor de las esquinas. Cada criatura en el área debe hacer una tirada de salvación de Destreza. Una criatura recibe 5d8 de daño de ácido, frío, fuego, relámpago o trueno si falla la tirada de salvación (tú eliges el tipo de daño cuando se crea el glifo), o la mitad del daño en una salvación exitosa. ***Glifo de conjuro.*** Puedes almacenar un conjuro preparado de 3er nivel o inferior en el glifo lanzándolo como parte de la creación del glifo. El conjuro debe dirigirse a una sola criatura o a un área. El conjuro que se almacena no tiene efecto inmediato cuando se lanza de esta manera. Cuando se activa el glifo, se lanza el conjuro almacenado. Si el conjuro tiene un objetivo, se dirige a la criatura que desencadenó el glifo. Si el conjuro afecta a un área, el área se centra en esa criatura. Si el conjuro convoca a criaturas hostiles o crea objetos dañinos o trampas, aparecen lo más cerca posible del intruso y lo atacan. Si el conjuro requiere concentración, dura hasta el final de su duración completa.",
+        "higherLevel": "Cuando se lanza este conjuro usando una ranura de conjuro de 4º nivel o superior, el daño de un glifo de runas explosivas aumenta en 1d8 por cada nivel de ranura por encima de 3º. Si se crea un glifo de conjuro, se puede almacenar cualquier conjuro de hasta el mismo nivel que la ranura que utilizaste para el *glifo de guarda*.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "haste",
+        "name": "Apresurarse",
+        "level": 3,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Elige una criatura dispuesta que puedas ver dentro del rango. Hasta que el conjuro termine, la velocidad del objetivo se duplica, gana un bono de +2 a la CA, tiene **ventaja** en las tiradas de salvación de Destreza, y gana una acción adicional en cada uno de sus turnos. Esa acción se puede usar solo para tomar la acción de **Ataque** (un solo ataque con arma), **Acometer**, **Desengancharse**, **Esconderse** o **Usar un Objeto**. Cuando el conjuro termina, el objetivo no puede moverse o tomar acciones hasta después de su siguiente turno, como una ola de letargo que lo invade.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "hypnotic-pattern",
+        "name": "Patrón hipnótico",
+        "level": 3,
+        "school": "Ilusión",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "S, M",
+        "duration": "Up to 1 minute",
+        "description": "Creas un patrón retorcido de colores que se entrelaza a través del aire dentro de un cubo de 30 pies dentro del rango. El patrón aparece por un momento y desaparece. Cada criatura en el área que ve el patrón debe hacer una tirada de salvación de Sabiduría. Si falla la salvación, la criatura queda **hechizada** durante la duración. Mientras está hechizada por este conjuro, la criatura está **incapacitada** y tiene una velocidad de 0. El conjuro termina para una criatura afectada si recibe cualquier daño o si alguien más usa una acción para sacudir a la criatura de su estupor.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "lightning-bolt",
+        "name": "Rayo",
+        "level": 3,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S, M",
+        "duration": "Instantaneous",
+        "description": "Un rayo de relámpago que forma una línea de 100 pies de largo y 5 pies de ancho se dispara fuera de ti en la dirección que elijas. Cada criatura en la línea debe hacer una tirada de salvación de Destreza. Una criatura recibe 8d6 de daño de relámpago si falla la salvación, o la mitad de daño si tiene éxito. El rayo enciende objetos inflamables en el área que no se llevan o portan.",
+        "higherLevel": "Cuando se lanza este conjuro usando una ranura de conjuro de 4º nivel o superior, el daño aumenta en 1d6 por cada nivel de ranura por encima de 3º.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": {
+            "3": "8d6",
+            "4": "9d6",
+            "5": "10d6",
+            "6": "11d6",
+            "7": "12d6",
+            "8": "13d6",
+            "9": "14d6"
+        },
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "magic-circle",
+        "name": "Círculo mágico",
+        "level": 3,
+        "school": "Abjuración",
+        "castingTime": "1 minute",
+        "range": "10 feet",
+        "components": "V, S, M",
+        "duration": "1 hour",
+        "description": "Creas un cilindro de energía mágica de 10 pies de radio y 20 pies de altura, centrado en un punto en el suelo que puedes ver dentro del rango. Aparecen runas brillantes donde el cilindro se cruza con el suelo u otra superficie. Elige uno o más de los siguientes tipos de criaturas: celestiales, elementales, feéricos, infernales o no muertos. El círculo afecta a una criatura del tipo elegido de las siguientes maneras: - La criatura no puede entrar voluntariamente en el cilindro por medios no mágicos. Si la criatura intenta usar la teletransportación o el viaje interplanar para hacerlo, primero debe tener éxito en una tirada de salvación de Carisma. - La criatura tiene **desventaja** en las tiradas de ataque contra objetivos dentro del cilindro. - Los objetivos dentro del cilindro no pueden ser hechizados, asustados o poseídos por la criatura. n elegir hacer que tu magia funcione en la dirección inversa, impidiendo que una criatura del tipo especificado salga del cilindro y protegiendo a los objetivos fuera de él.",
+        "higherLevel": "Cuando se lanza este conjuro usando una ranura de conjuro de 4º nivel o superior, la duración aumenta en 1 hora por cada nivel de ranura por encima de 3º.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Paladín",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "major-image",
+        "name": "Imagen mayor",
+        "level": 3,
+        "school": "Ilusión",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S, M",
+        "duration": "Up to 10 minutes",
+        "description": "Creas la imagen de un objeto, una criatura o algún otro fenómeno visible que no es mayor que un cubo de 20 pies. La imagen aparece en un punto que puedes ver dentro del rango y dura toda la duración. Parece completamente real, incluyendo sonidos, olores y temperatura apropiados para la cosa representada. No puedes crear suficiente calor o frío para causar daño, un sonido lo suficientemente fuerte como para hacer daño por trueno o ensordecer a una criatura, o un olor que pueda enfermar a una criatura (como el hedor de un troglodita). Mientras estés dentro del alcance de la ilusión, puedes usar tu **acción** para hacer que la imagen se mueva a cualquier otro lugar dentro del rango. A medida que la imagen cambia de ubicación, puedes alterar su apariencia para que sus movimientos parezcan naturales para la imagen. Por ejemplo, si creas una imagen de una criatura y mueves de manera similar, se puede hacer que la ilusión haga sonidos diferentes en diferentes momentos, incluso haciendo que mantenga una conversación, por ejemplo. La interacción física con la imagen revela que es una ilusión, porque las cosas pueden pasar a través de ella. Una criatura que usa su acción para examinar la imagen puede determinar que es una ilusión con una prueba exitosa de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si una criatura discierne la ilusión de lo que es, la criatura puede ver a través de la imagen, y sus otras cualidades sensoriales se debilitan para la criatura.",
+        "higherLevel": "Cuando lanzas este conjuro usando una ranura de conjuro de 6º nivel o superior, el conjuro dura hasta que se disipa, sin requerir tu concentración.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "mass-healing-word",
+        "name": "Palabra de curación en masa",
+        "level": 3,
+        "school": "Evocación",
+        "castingTime": "1 bonus action",
+        "range": "60 feet",
+        "components": "V",
+        "duration": "Instantaneous",
+        "description": "Mientras invocas las palabras de restauración, hasta seis criaturas de tu elección que puedas ver dentro del rango recuperan puntos de golpe iguales a 1d4 + tu modificador de característica de lanzamiento de conjuros. Este conjuro no tiene ningún efecto en no muertos o constructos.",
+        "higherLevel": "Cuando se lanza este conjuro usando una ranura de conjuro de 4º nivel o superior, la curación aumenta en 1d4 por cada nivel de ranura por encima de 3º.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "meld-into-stone",
+        "name": "Fusionarse con la piedra",
+        "level": 3,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S",
+        "duration": "8 hours",
+        "description": "Entras en un objeto de piedra o en una superficie lo suficientemente grande como para contener completamente tu cuerpo, fusionándote a ti y a todo el equipo que llevas con la piedra durante toda la duración. Usando tu movimiento, te metes en la piedra en un punto que puedes tocar. Nada de tu presencia permanece visible o detectable de otra manera por los sentidos no mágicos. om (percepción) que hagas para escuchar sonidos fuera de ella se hacen con **desventaja**. Permaneces consciente del paso del tiempo y puedes lanzar conjuros sobre ti mismo mientras estás fusionado en la piedra. Puedes usar tu movimiento para salir de la piedra por donde entraste, lo que termina el conjuro. De lo contrario, no puedes moverte. Un daño físico menor a la piedra no te daña, pero su destrucción parcial o un cambio en su forma (en la medida en que ya no cabes dentro de ella) te expulsa y te inflige 6d6 de daño contundente. La destrucción completa de la piedra (o transmutación en una sustancia diferente) te expulsa y te inflige 50 de daño contundente. Si eres expulsado, caes **tumbado** en un espacio desocupado más cercano a donde entraste por primera vez.",
+        "higherLevel": "",
+        "isRitual": true,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "nondetection",
+        "name": "No detección",
+        "level": 3,
+        "school": "Abjuración",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "8 hours",
+        "description": "El objetivo puede ser una criatura dispuesta o un lugar o un objeto no mayor de 10 pies en cualquier dimensión. El objetivo no puede ser objetivo de ninguna magia de adivinación ni ser percibido a través de sensores mágicos.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Explorador",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "phantom-steed",
+        "name": "Corcel fantasma",
+        "level": 3,
+        "school": "Ilusión",
+        "castingTime": "1 minute",
+        "range": "30 feet",
+        "components": "V, S",
+        "duration": "1 hour",
+        "description": "Una criatura Grande, casi real, parecida a un caballo aparece en el suelo en un espacio desocupado de tu elección dentro de tu alcance. Tú decides la apariencia de la criatura, pero está equipada con una silla de montar, un bocado y una brida. Cualquier equipo creado por el conjuro se desvanece en una nube de humo si se aleja más de 10 pies del corcel. Durante la duración, tú o una criatura que elijas pueden montar el corcel. Reature utiliza las estadísticas de un caballo de montura, excepto que tiene una velocidad de 100 pies y puede viajar 10 millas en una hora, o 13 millas a un ritmo rápido. Cuando el conjuro termina, el corcel se desvanece gradualmente, dándole al jinete 1 minuto para desmontar. El conjuro termina si usas una acción para descartarlo o si el corcel recibe cualquier daño.",
+        "higherLevel": "",
+        "isRitual": true,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "plant-growth",
+        "name": "Crecimiento vegetal",
+        "level": 3,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "150 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Este conjuro canaliza vitalidad en las plantas dentro de un área específica. Hay dos usos posibles para el conjuro, que otorgan beneficios inmediatos o a largo plazo. Si lanzas este conjuro usando 1 **acción**, elige un punto dentro del rango. Todas las plantas normales en un radio de 100 pies centrado en ese punto se vuelven gruesas y cubiertas de maleza. Una criatura que se mueve a través del área debe gastar 4 pies de movimiento por cada 1 pie que se mueve. Puedes excluir una o más áreas de cualquier tamaño dentro del área del conjuro de ser afectadas. Si lanzas este conjuro durante 8 horas, enriqueces la tierra. Todas las plantas en un radio de media milla centradas en un punto dentro del rango se enriquecen durante 1 año. Las plantas producen el doble de la cantidad normal de alimentos cuando se cosechan.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Explorador"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "protection-from-energy",
+        "name": "Protección contra la energía",
+        "level": 3,
+        "school": "Abjuración",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S",
+        "duration": "Up to 1 hour",
+        "description": "Durante toda la duración, la criatura dispuesta que tocas tiene **resistencia** a un tipo de daño de tu elección: ácido, frío, fuego, relámpago o trueno.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Explorador",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "remove-curse",
+        "name": "Eliminar maldición",
+        "level": 3,
+        "school": "Abjuración",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "A tu toque, todas las maldiciones que afectan a una criatura u objeto terminan. Si el objeto es un objeto mágico maldito, su maldición permanece, pero el conjuro rompe la sintonización de su propietario con el objeto para que pueda ser removido o descartado.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Paladín",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "revivify",
+        "name": "Revivir",
+        "level": 3,
+        "school": "Conjuración",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "Instantaneous",
+        "description": "Tocasa una criatura que ha muerto en el último minuto. Esa criatura vuelve a la vida con 1 punto de golpe. Este conjuro no puede devolver a la vida a una criatura que ha muerto de vejez, ni puede restaurar partes del cuerpo que faltan.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Paladín"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "sending",
+        "name": "Enviar mensaje",
+        "level": 3,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "Unlimited",
+        "components": "V, S, M",
+        "duration": "1 round",
+        "description": "Envías un mensaje corto de veinticinco palabras o menos a una criatura con la que estás familiarizado. La criatura escucha el mensaje en su mente, te reconoce como el remitente si te conoce, y puede responder de manera similar inmediatamente. El conjuro permite a las criaturas con puntuaciones de Inteligencia de al menos 1 comprender el significado de tu mensaje. Puedes enviar el mensaje a través de cualquier distancia e incluso a otros planos de existencia, pero si el objetivo está en un plano diferente al tuyo, hay un 5 por ciento de probabilidades de que el mensaje no llegue.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "sleet-storm",
+        "name": "Tormenta de aguanieve",
+        "level": 3,
+        "school": "Conjuración",
+        "castingTime": "1 action",
+        "range": "150 feet",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Hasta que el conjuro termine, lluvia helada y aguanieve caen en un cilindro de 20 pies de altura con un radio de 40 pies centrado en un punto que eliges dentro de tu alcance. El área está fuertemente oscurecida, y las llamas expuestas en el área son apagadas. El suelo en el área está cubierto de hielo resbaladizo, lo que lo convierte en **terreno difícil**. Cuando una criatura entra en el área del conjuro por primera vez en un turno o comienza su turno allí, debe tener éxito en una tirada de salvación de Destreza o caer **tumbada**. Si una criatura se está concentrando en el área del conjuro, la criatura debe hacer una tirada de salvación de Constitución exitosa contra tu CD de salvación de conjuros o perder la concentración.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "slow",
+        "name": "Lentitud",
+        "level": 3,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Alteras el tiempo alrededor de hasta seis criaturas de tu elección en un cubo de 40 pies dentro del rango. Cada objetivo debe tener éxito en una tirada de salvación de Sabiduría o ser afectado por este conjuro durante la duración. La velocidad de un objetivo afectado se reduce a la mitad, recibe una penalización de -2 a la CA y a las tiradas de salvación de Destreza, y no puede usar **reacciones**. En su turno, puede usar una **acción** o una **acción adicional**, no ambas. Independientemente de la criatura Si la criatura intenta lanzar un conjuro con un tiempo de lanzamiento de 1 acción, tira un d20. Con un 11 o más, el conjuro no tendrá efecto hasta el siguiente turno de la criatura, y la criatura debe usar su acción en ese turno para completar el conjuro. Si no puede, el conjuro se desperdicia. Este conjuro permite otra tirada de salvación de Sabiduría al final de su turno. Con una salvación exitosa, el efecto termina para ella.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "speak-with-dead",
+        "name": "Hablar con los muertos",
+        "level": 3,
+        "school": "Necromancy",
+        "castingTime": "1 action",
+        "range": "10 feet",
+        "components": "V, S, M",
+        "duration": "10 minutes",
+        "description": "Concedes la apariencia de vida e inteligencia a un cadáver de tu elección a tu alcance, permitiéndole responder a las preguntas que le planteas. El cadáver aún debe tener una boca y no puede ser no muerto. El conjuro falla si el cadáver fue objetivo de este conjuro en los últimos 10 días. Hasta que el conjuro termine, puedes hacerle al cadáver hasta cinco preguntas. El cadáver solo sabe lo que sabía en vida, incluyendo el idioma que hablaba. Por lo general, las respuestas son breves, crípticas o repetitivas, y el cadáver no está obligado a ofrecer una respuesta veraz si le eres hostil o te reconoce como un enemigo. Este conjuro no devuelve el alma de la criatura a su cuerpo, solo su espíritu animador. Por lo tanto, el cadáver no puede aprender nueva información, no comprende nada de lo que ha sucedido desde que murió, y no puede especular sobre eventos futuros.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "speak-with-plants",
+        "name": "Hablar con las plantas",
+        "level": 3,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S",
+        "duration": "10 minutes",
+        "description": "Imbuyes las plantas a menos de 30 pies de ti con sensibilidad y animación limitadas, dándoles la capacidad de comunicarse contigo y seguir tus órdenes simples. Puedes preguntar a las plantas sobre los acontecimientos en el área del conjuro en el pasado día, ganando información sobre las criaturas que han pasado, el clima y otras circunstancias. También puedes convertir el terreno difícil causado por el crecimiento de la planta (como los matorrales o puedes convertir el terreno ordinario donde las plantas están presentes en **terreno difícil** que dura la duración, haciendo que las vides y ramas obstaculicen a los perseguidores, por ejemplo. Las plantas pueden ser capaces de realizar otras tareas en tu nombre, a discreción del DM. El conjuro no permite a las plantas desarraigarse y moverse, pero pueden mover libremente ramas, zarcillos y tallos. Si una criatura vegetal está en el área, puedes comunicarte con ella como si compartieras un lenguaje común, pero no obtienes ninguna habilidad mágica para influir en ella. Este conjuro puede causar que las plantas creadas por el conjuro *enmarañar* liberen a una criatura restringida.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Explorador"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "spirit-guardians",
+        "name": "Guardianes espirituales",
+        "level": 3,
+        "school": "Conjuración",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S, M",
+        "duration": "Up to 10 minutes",
+        "description": "Si eres bueno o neutral, tu forma espectral parece angélica o feérica (a tu elección). Si eres malo, parece diabólica. Cuando lanzas este conjuro, puedes designar a cualquier número de criaturas que puedas ver que no se ven afectadas por él. La velocidad de una criatura afectada se reduce a la mitad en el área, y cuando la criatura entra en el área por primera vez en un turno o comienza su turno allí, debe hacer una tirada de salvación de Sabiduría. Si falla la salvación, la criatura recibe 3d8 de daño radiante (si eres bueno o neutral) o 3d8 de daño necrótico (si eres malo). Con una salvación exitosa, la criatura recibe la mitad de daño.",
+        "higherLevel": "Cuando se lanza este conjuro usando una ranura de conjuro de 4º nivel o superior, el daño aumenta en 1d8 por cada nivel de ranura por encima de 3º.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "stinking-cloud",
+        "name": "Nube apestosa",
+        "level": 3,
+        "school": "Conjuración",
+        "castingTime": "1 action",
+        "range": "90 feet",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Creas una esfera de 20 pies de radio de gas amarillo y nauseabundo centrado en un punto dentro de tu alcance. La nube se extiende alrededor de las esquinas, y su área está fuertemente **oscurecida**. La nube permanece en el aire durante toda la duración. Cada criatura que está completamente dentro de la nube al comienzo de su turno debe hacer una tirada de salvación de Constitución contra el veneno. Las criaturas que no necesitan respirar o que son inmunes al veneno tienen éxito automáticamente en esta tirada de salvación. Un viento moderado (al menos 10 millas por hora) dispersa la nube después de 4 rondas. Un viento fuerte (al menos 20 millas por hora) la dispersa después de 1 ronda.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "tiny-hut",
+        "name": "Choza de Leomund",
+        "level": 3,
+        "school": "Evocación",
+        "castingTime": "1 minute",
+        "range": "Self",
+        "components": "V, S, M",
+        "duration": "8 hours",
+        "description": "Una cúpula de fuerza inmóvil de 10 pies de radio brota alrededor y por encima de ti y permanece estacionaria durante toda la duración. El conjuro termina si dejas su área. Nueve criaturas de tamaño Mediano o más pequeñas pueden caber dentro de la cúpula contigo. El conjuro falla si su área incluye una criatura más grande o más de nueve criaturas. Los conjuros y otros efectos mágicos no pueden extenderse a través de la cúpula ni ser lanzados a través de ella. La atmósfera dentro del espacio es cómoda y seca, independientemente del clima exterior. Hasta que el conjuro termine, puedes ordenar que el interior se vuelva tenuemente iluminado u oscuro. La cúpula es opaca desde el exterior, del color que elijas, pero es transparente desde el interior.",
+        "higherLevel": "",
+        "isRitual": true,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "tongues",
+        "name": "Lenguas",
+        "level": 3,
+        "school": "Divinización",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, M",
+        "duration": "1 hour",
+        "description": "Este conjuro otorga a la criatura que tocas la capacidad de entender cualquier idioma hablado que escuche. Además, cuando el objetivo habla, cualquier criatura que conozca al menos un idioma y pueda oír al objetivo entiende lo que dice.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "vampiric-touch",
+        "name": "Toque vampírico",
+        "level": 3,
+        "school": "Necromancy",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S",
+        "duration": "Up to 1 minute",
+        "description": "El toque de tu mano ensombrecida puede extraer la fuerza vital de otros para sanar tus heridas. Haz un ataque de conjuro cuerpo a cuerpo contra una criatura a tu alcance. En un impacto, el objetivo recibe 3d6 de daño necrótico, y recuperas puntos de golpe iguales a la mitad de la cantidad de daño necrótico infligido. Hasta que el conjuro termine, puedes hacer el ataque de nuevo en cada uno de tus turnos como una **acción**.",
+        "higherLevel": "Cuando se lanza este conjuro usando una ranura de conjuro de 4º nivel o superior, el daño aumenta en 1d6 por cada nivel de ranura por encima de 3º.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "3": "3d6",
+            "4": "4d6",
+            "5": "5d6",
+            "6": "6d6",
+            "7": "7d6",
+            "8": "8d6",
+            "9": "9d6"
+        },
+        "classes": [
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "water-breathing",
+        "name": "Respiración acuática",
+        "level": 3,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "V, S, M",
+        "duration": "24 hours",
+        "description": "Este conjuro da a un máximo de diez criaturas dispuestas que puedes ver dentro del rango la capacidad de respirar bajo el agua hasta el final de su duración. Las criaturas afectadas también conservan su patrón de respiración normal.",
+        "higherLevel": "",
+        "isRitual": true,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida",
+            "Explorador",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "water-walk",
+        "name": "Caminar sobre el agua",
+        "level": 3,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "V, S, M",
+        "duration": "1 hour",
+        "description": "Este conjuro otorga la capacidad de moverse a través de cualquier superficie líquida -como agua, ácido, barro, nieve, arena movediza o lava- como si fuera tierra sólida inofensiva (las criaturas que cruzan lava fundida aún pueden recibir daño por el calor). Hasta diez criaturas dispuestas que puedas ver dentro del rango ganan esta capacidad durante la duración. Si apuntas a una criatura sumergida en un líquido, el conjuro lleva al objetivo a la superficie del líquido a una velocidad de 60 pies por turno.",
+        "higherLevel": "",
+        "isRitual": true,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Explorador",
+            "Hechicero"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "wind-wall",
+        "name": "Muro de viento",
+        "level": 3,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Una pared de viento fuerte se levanta del suelo en un punto que eliges dentro del rango. Puedes hacer que la pared tenga hasta 50 pies de largo, 15 pies de alto y 1 pie de grosor. Puedes dar forma a la pared de cualquier manera que elijas, siempre que forme un camino continuo a lo largo del suelo. La pared dura toda la duración. Cuando la pared aparece, cada criatura dentro de su área debe hacer una tirada de salvación de Fuerza. Una criatura recibe 3d8 de daño contundente si falla la salvación, o la mitad de daño si tiene éxito. El fuerte viento mantiene a raya la niebla, el humo y otros gases. Las criaturas u objetos voladores Pequeños o más pequeños no pueden pasar a través de la pared. Las flechas, virotes y otros proyectiles ordinarios lanzados a objetivos detrás de la pared se desvían hacia arriba y fallan automáticamente. (Los cohetes lanzados por gigantes o máquinas de asedio, y proyectiles similares, no se ven afectados.) Las criaturas en forma gaseosa no pueden pasar a través de él.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "3": "3d8"
+        },
+        "classes": [
+            "Druida",
+            "Explorador"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "enemies-abound",
+        "name": "Enemigos abundantes",
+        "level": 3,
+        "school": "Encantamiento",
+        "castingTime": "1 acción",
+        "range": "120 pies",
+        "components": "V, S",
+        "duration": "Concentración, hasta 1 minuto",
+        "description": "El objetivo debe tener éxito en una tirada de salvación de **Inteligencia** o se vuelve hostil a todas las criaturas excepto a sí mismo. Atacará a la criatura más cercana a él. (El efecto no escala con ranura).",
+        "higherLevel": null,
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "siestecita",
+        "name": "Siestecita",
+        "level": 3,
+        "school": "Encantamiento",
+        "castingTime": "1 acción",
+        "range": "90 pies",
+        "components": "V, S, M",
+        "duration": "Concentración, hasta 1 minuto",
+        "description": "El objetivo debe tener éxito en una tirada de salvación de **Constitución** o sufrir 4d6 de **daño psíquico** y tiene **desventaja** en sus tiradas de ataque y tiradas de salvación de Fuerza y Destreza.",
+        "higherLevel": null,
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "flame-arrows",
+        "name": "Flechas flamígeras",
+        "level": 3,
+        "school": "Transmutación",
+        "castingTime": "1 acción",
+        "range": "Toque",
+        "components": "V, S, M",
+        "duration": "Concentración, hasta 1 hora",
+        "description": "Tocas hasta 12 proyectiles. Por la duración, los ataques con estos proyectiles infligen 1d6 de **daño por fuego** adicional al impactar y se consideran mágicos. (El efecto no escala con ranura, pero el número de proyectiles puede variar).",
+        "higherLevel": null,
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida",
+            "Explorador",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "conjure-lesser-demons",
+        "name": "Invocar demonios menores",
+        "level": 3,
+        "school": "Conjuración",
+        "castingTime": "1 acción",
+        "range": "60 pies",
+        "components": "V, S, M",
+        "duration": "Concentración, hasta 1 hora",
+        "description": "Conjuras de 2 a 8 demonios menores que te atacan o a otras criaturas cercanas. Los demonios tienen una posibilidad de liberarse de tu control.",
+        "higherLevel": "Puedes invocar más demonios o demonios más fuertes usando espacios de nivel superior.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "melfs-minute-meteors",
+        "name": "Meteoros diminutos de Melf",
+        "level": 3,
+        "school": "Evocación",
+        "castingTime": "1 acción",
+        "range": "Personal (radio de 120 pies)",
+        "components": "V, S, M",
+        "duration": "Concentración, hasta 10 minutos",
+        "description": "Conjuras 6 meteoros. Puedes usar una acción adicional para lanzar 2 de ellos. Cada uno hace un ataque de conjuro a distancia, infligiendo **daño por fuego**.",
+        "higherLevel": "La descripción del daño base es para ranura de nivel 3.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "3": "2d6",
+            "4": "3d6",
+            "5": "4d6",
+            "6": "5d6",
+            "7": "6d6",
+            "8": "7d6",
+            "9": "8d6"
+        },
+        "classes": [
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "tidal-wave",
+        "name": "Ola de marea",
+        "level": 3,
+        "school": "Conjuración",
+        "castingTime": "1 acción",
+        "range": "120 pies",
+        "components": "V, S, M",
+        "duration": "Instantánea",
+        "description": "Una pared de agua de 30 pies de ancho y 10 pies de alto impacta en línea recta. Las criaturas en el área deben superar una salvación de **Destreza** o recibir 4d8 de **daño contundente** y ser **Derribadas** (Prone). (El daño no escala con ranura).",
+        "higherLevel": null,
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "thunder-step",
+        "name": "Paso de trueno",
+        "level": 3,
+        "school": "Conjuración",
+        "castingTime": "1 acción",
+        "range": "Personal",
+        "components": "V",
+        "duration": "Instantánea",
+        "description": "Te teletransportas hasta 90 pies a un espacio desocupado. Las criaturas a 10 pies de donde apareces reciben **daño por trueno** si fallan la salvación de **Constitución**.",
+        "higherLevel": "La descripción del daño base es para ranura de nivel 3.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": {
+            "3": "3d10",
+            "4": "4d10",
+            "5": "5d10",
+            "6": "6d10",
+            "7": "7d10",
+            "8": "8d10",
+            "9": "9d10"
+        },
+        "classes": [
+            "Artífice",
+            "Brujo",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "erupting-earth",
+        "name": "Tierra en erupción",
+        "level": 3,
+        "school": "Transmutación",
+        "castingTime": "1 acción",
+        "range": "120 pies",
+        "components": "V, S, M",
+        "duration": "Instantánea",
+        "description": "Provocas una erupción en un cubo de 20 pies de lado. Las criaturas deben hacer una salvación de **Destreza** o recibir **daño contundente** y el terreno se vuelve difícil hasta que sea despejado.",
+        "higherLevel": "La descripción del daño base es para ranura de nivel 3.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": {
+            "3": "3d12",
+            "4": "4d12",
+            "5": "5d12",
+            "6": "6d12",
+            "7": "7d12",
+            "8": "8d12",
+            "9": "9d12"
+        },
+        "classes": [
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "life-transference",
+        "name": "Transferencia de vida",
+        "level": 3,
+        "school": "Nigromancia",
+        "castingTime": "1 acción",
+        "range": "30 pies",
+        "components": "V, S",
+        "duration": "Instantánea",
+        "description": "Infliges **daño necrótico** a ti mismo. Una criatura dispuesta a tu alcance recupera el doble de los puntos de golpe que perdiste.",
+        "higherLevel": "El daño propio es el que escala.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": {
+            "3": "4d8",
+            "4": "5d8",
+            "5": "6d8",
+            "6": "7d8",
+            "7": "8d8",
+            "8": "9d8",
+            "9": "10d8"
+        },
+        "classes": [
+            "Clérigo",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "wall-of-sand",
+        "name": "Muro de arena",
+        "level": 3,
+        "school": "Evocación",
+        "castingTime": "1 acción",
+        "range": "90 pies",
+        "components": "V, S, M",
+        "duration": "Concentración, hasta 10 minutos",
+        "description": "Creas una pared de arena arremolinada que bloquea la visión y causa terreno difícil. La pared tiene 30 pies de largo, 15 pies de alto y 1 pie de grosor. (El efecto no escala con ranura).",
+        "higherLevel": null,
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "wall-of-water",
+        "name": "Muro de agua",
+        "level": 3,
+        "school": "Evocación",
+        "castingTime": "1 acción",
+        "range": "60 pies",
+        "components": "V, S, M",
+        "duration": "Concentración, hasta 10 minutos",
+        "description": "Creas un muro de agua que apaga fuegos, dificulta el movimiento y otorga media cobertura a las criaturas detrás de él. El muro tiene 30 pies de largo, 10 pies de alto y 1 pie de grosor. (El efecto no escala con ranura).",
+        "higherLevel": null,
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "tiny-servant",
+        "name": "Servidor minúsculo",
+        "level": 3,
+        "school": "Transmutación",
+        "castingTime": "1 minuto",
+        "range": "Toque",
+        "components": "V, S, M",
+        "duration": "8 horas",
+        "description": "Un objeto de tamaño Pequeño o Minúsculo que tocas cobra vida como una criatura constructo Minúscula. El objeto puede recibir comandos mentales, mover hasta 30 pies y realizar un ataque con un bonificador de +5 que inflige 1d4 + 2 de daño contundente.",
+        "higherLevel": "Puedes animar un objeto adicional por cada nivel de espacio por encima de 3º.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "tce-intellect-fortress",
+        "name": "Fortaleza Intelectual",
+        "level": 3,
+        "school": "Abjuración",
+        "castingTime": "1 acción",
+        "range": "30 pies",
+        "components": "V, S, M (un trozo de cristal)",
+        "duration": "Concentración, hasta 1 hora",
+        "description": "Eliges a una criatura (incluyéndote a ti). Un escudo de energía psíquica protectora rodea a la criatura. El objetivo tiene ventaja en todas las tiradas de salvación de **Inteligencia, Sabiduría y Carisma** y tiene resistencia al daño psíquico.",
+        "higherLevel": "Puedes apuntar a una criatura adicional por cada nivel de ranura por encima del 3ro.",
+        "isRitual": true,
+        "isConcentration": true,
+        "classes": [
+            "Artífice",
+            "Bardo",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "El Caldero de Tasha para Todo"
+    },
+    {
+        "id": "tce-summon-shadowspawn",
+        "name": "Invocar Engendro Sombrío",
+        "level": 3,
+        "school": "Conjuración",
+        "castingTime": "1 acción",
+        "range": "90 pies",
+        "components": "V, S, M (una pluma oscura o un puñado de ceniza)",
+        "duration": "Concentración, hasta 1 hora",
+        "description": "Invocas un espíritu sombrío que toma una forma desolada, melancólica o temible de tu elección. El espíritu es una criatura, es amigable contigo y tus compañeros, y actúa en tu turno. Consulta las estadísticas del Engendro Sombrío. Las estadísticas mejoran con ranuras de conjuro más altas.",
+        "higherLevel": "Cuando lanzas este conjuro usando una ranura de conjuro de 4to nivel o superior, el HP y el daño del espíritu aumentan.",
+        "isRitual": true,
+        "isConcentration": true,
+        "classes": [
+            "Brujo",
+            "Mago"
+        ],
+        "source": "El Caldero de Tasha para Todo"
+    },
+    {
+        "id": "tce-summon-fey",
+        "name": "Invocar Feérico",
+        "level": 3,
+        "school": "Conjuración",
+        "castingTime": "1 acción",
+        "range": "90 pies",
+        "components": "V, S, M (una flor o una ramita de árbol)",
+        "duration": "Concentración, hasta 1 hora",
+        "description": "Invocas un espíritu feérico que toma una forma astuta, juguetona o irascible de tu elección. El espíritu es una criatura, es amigable contigo y tus compañeros, y actúa en tu turno. Consulta las estadísticas del Espíritu Feérico. Las estadísticas mejoran con ranuras de conjuro más altas.",
+        "higherLevel": "Cuando lanzas este conjuro usando una ranura de conjuro de 4to nivel o superior, el HP y el daño del espíritu aumentan.",
+        "isRitual": true,
+        "isConcentration": true,
+        "classes": [
+            "Druida",
+            "Explorador",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "El Caldero de Tasha para Todo"
+    },
+    {
+        "id": "tce-summon-undead",
+        "name": "Invocar Muerto Viviente",
+        "level": 3,
+        "school": "Nigromancia",
+        "castingTime": "1 acción",
+        "range": "90 pies",
+        "components": "V, S, M (un fragmento de hueso, una pizca de tierra de cementerio o una tira de tela podrida)",
+        "duration": "Concentración, hasta 1 hora",
+        "description": "Invocas un espíritu de muerto viviente que toma una forma putrefacta, fantasmal o esquelética de tu elección. El espíritu es una criatura, es amigable contigo y tus compañeros, y actúa en tu turno. Consulta las estadísticas del Espíritu Muerto Viviente. Las estadísticas mejoran con ranuras de conjuro más altas.",
+        "higherLevel": "Cuando lanzas este conjuro usando una ranura de conjuro de 4to nivel o superior, el HP y el daño del espíritu aumentan.",
+        "isRitual": true,
+        "isConcentration": true,
+        "classes": [
+            "Brujo",
+            "Mago"
+        ],
+        "source": "El Caldero de Tasha para Todo"
+    },
+    {
+        "id": "tce-spirit-shroud",
+        "name": "Sudario Espiritual",
+        "level": 3,
+        "school": "Nigromancia",
+        "castingTime": "1 acción extra",
+        "range": "Personal",
+        "components": "V, S",
+        "duration": "Concentración, hasta 1 minuto",
+        "description": "Invocas espíritus espectrales que te rodean en un radio de 10 pies. Hasta que el conjuro termine, cualquier ataque que hagas causa 1d8 de daño adicional (necrótico, radiante o frío, a tu elección). Además, cada criatura a 10 pies de ti tiene su velocidad reducida en 10 pies.",
+        "higherLevel": "Cuando lanzas este conjuro usando una ranura de conjuro de 4to nivel o superior, el daño adicional aumenta en 1d8 por cada dos niveles de ranura por encima del 3ro.",
+        "damageAtSlotLevel": {
+            "3": "1d8",
+            "4": "1d8",
+            "5": "2d8",
+            "6": "2d8",
+            "7": "3d8",
+            "8": "3d8",
+            "9": "4d8"
+        },
+        "isRitual": true,
+        "isConcentration": true,
+        "classes": [
+            "Clérigo",
+            "Paladín",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "El Caldero de Tasha para Todo"
+    }
+]

@@ -1,0 +1,1534 @@
+[
+    {
+        "id": "acid-arrow",
+        "name": "Flecha ácida",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "90 feet",
+        "components": "V, S, M",
+        "duration": "Instantaneous",
+        "description": "Una flecha verde brillante rayas hacia un objetivo dentro del rango y estalla en un spray de ácido. Haga un ataque de hechizo de rango contra el objetivo. En un golpe, el objetivo recibe 4d4 daño ácido inmediatamente y 2d4 daño ácido al final de su siguiente vuelta. En una falla, la flecha salpica el objetivo con ácido por la mitad del daño inicial y ningún daño al final de su siguiente vuelta.",
+        "higherLevel": "Cuando se lanza este hechizo utilizando una ranura de hechizo de 3er nivel o superior, el daño (tanto inicial como posterior) aumenta en 1d4 para cada nivel de ranura por encima de 2o.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": {
+            "2": "4d4",
+            "3": "5d4",
+            "4": "6d4",
+            "5": "7d4",
+            "6": "8d4",
+            "7": "9d4",
+            "8": "10d4",
+            "9": "11d4"
+        },
+        "classes": [
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "aid",
+        "name": "Auxilio",
+        "level": 2,
+        "school": "Abjuración",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "V, S, M",
+        "duration": "8 hours",
+        "description": "Tu hechizo imbuye de valor a tus aliados. Elige hasta tres criaturas en el rango. Los puntos de golpe máximos y actuales de cada objetivo aumentan en 5 mientras dure el hechizo.",
+        "higherLevel": "Cuando lanzas este hechizo usando una ranura de hechizo de 3er nivel o superior, los puntos de golpe de un objetivo aumentan en 5 adicionales por cada nivel de ranura por encima de 2o.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Paladín"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "alter-self",
+        "name": "Alterar el propio ser",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S",
+        "duration": "Up to 1 hour",
+        "description": "Asumes una forma diferente. Puedes elegir entre: • Cambio acuático (adaptación para nadar y respirar bajo el agua). • Cambio físico (alterar tu apariencia, altura, peso y rasgos). • Armas naturales (hacer crecer garras, colmillos u otras armas naturales para infligir 1d6 de daño adicional).",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "animal-messenger",
+        "name": "Mensajero animal",
+        "level": 2,
+        "school": "Encantado",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "V, S, M",
+        "duration": "24 hours",
+        "description": "Envías a un animal Tiny a entregar un mensaje. Escribes el mensaje de hasta 25 palabras que la bestia recita al llegar. Viaja hasta 50 millas por 24 horas.",
+        "higherLevel": "Si lanzas este hechizo usando una ranura de hechizo de 3o nivel o superior, la duración del hechizo aumenta en 48 horas por cada nivel de ranura por encima de 2o.",
+        "isRitual": true,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Explorador"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "arcane-lock",
+        "name": "Cerradura arcana",
+        "level": 2,
+        "school": "Abjuración",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "Until dispelled",
+        "description": "Tocas una puerta, ventana, cofre u otro acceso. Queda sellado con magia. La CD para abrirlo aumenta en +10. Puedes designar criaturas que lo abran sin problema. Se puede disipar con magia o forzar con Disipar magia o Knock.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "arcanists-magic-aura",
+        "name": "Aura mágica arcanista",
+        "level": 2,
+        "school": "Ilusión",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "24 hours",
+        "description": "Usted coloca una ilusión en una criatura o un objeto que toca para que los hechizos de adivinación revelen información falsa sobre ella. El objetivo puede ser una criatura dispuesta o un objeto que no está siendo llevado o usado por otra criatura. Cuando usted lanza el hechizo, elija uno o ambos de los siguientes efectos. El efecto dura por la duración. Si usted lanza este hechizo en la misma criatura u objeto todos los días durante 30 días, colocando el mismo efecto en él cada vez, la ilusión dura hasta que se disipa. *** Falso Aura.*** Cambias la forma en que el objetivo aparece a hechizos y efectos mágicos, como detectar magia, que detecta auras mágicas. Puedes hacer que un objeto no mágico parezca mágico, un objeto mágico parezca no mágico, o cambiar el aura mágica del objeto para que parezca pertenecer a una escuela específica de m Cuando usas este efecto en un objeto, puedes hacer que la falsa magia sea aparente a cualquier criatura que maneje el objeto. ***Máscara.*** Cambias la forma en que el objetivo aparece para hechizos y efectos mágicos que detectan tipos de criaturas, como el sentido divino de un paladín o el disparador de un hechizo simbólico. Eliges un tipo de criatura y otros hechizos y efectos mágicos tratan al objetivo como si Era una criatura de ese tipo o de esa alineación.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "augury",
+        "name": "Augurio",
+        "level": 2,
+        "school": "Divinización",
+        "castingTime": "1 minute",
+        "range": "Self",
+        "components": "V, S, M",
+        "duration": "Instantaneous",
+        "description": "Recibes un presagio sobre los resultados de una acción que planeas realizar en los próximos 30 minutos. El DM elige: • Buen resultado (éxito), • Mal resultado (fracaso), • Ambos, • Ninguno. El conjuro no revela detalles específicos.",
+        "higherLevel": "",
+        "isRitual": true,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "barkskin",
+        "name": "Piel de corteza",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "Up to 1 hour",
+        "description": "Tocas a una criatura dispuesta. Su piel se endurece como corteza. Hasta que termine el hechizo, la CA del objetivo no puede ser menor de 16, sin importar la armadura que lleve.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida",
+            "Explorador"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "blindness-deafness",
+        "name": "Ceguera/ Sordera",
+        "level": 2,
+        "school": "Necromancy",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "V",
+        "duration": "1 minute",
+        "description": "Usted puede cegar o ensordecer a un enemigo. Elija una criatura que usted puede ver dentro del rango para hacer un lanzamiento de ahorro de constitución. Si falla, el objetivo está ciego o ensordecido (su elección) para la duración. Al final de cada uno de sus turnos, el objetivo puede hacer un lanzamiento de ahorro de constitución. En un éxito, el hechizo termina.",
+        "higherLevel": "Cuando usted lanza este hechizo usando una ranura de hechizo de 3er nivel o superior, usted puede apuntar a una criatura adicional para cada nivel de ranura por encima de la 2a.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "blur",
+        "name": "Desenfoque",
+        "level": 2,
+        "school": "Ilusión",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V",
+        "duration": "Up to 1 minute",
+        "description": "Tu figura se vuelve borrosa y difícil de enfocar. Hasta que acabe el hechizo, cualquier criatura tiene desventaja en las tiradas de ataque contra ti. No funciona con criaturas que no dependan de la vista o tengan visión verdadera.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "branding-smite",
+        "name": "Castigo revelador",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "1 bonus action",
+        "range": "Self",
+        "components": "V",
+        "duration": "Up to 1 minute",
+        "description": "La próxima vez que golpees a una criatura con un arma antes de que termine el hechizo, el ataque inflige 2d6 de daño radiante adicional. Además, el objetivo queda iluminado en luz tenue y no puede volverse invisible mientras dure.",
+        "higherLevel": "Cuando se lanza este hechizo utilizando una ranura de hechizo de 3er nivel o superior, el daño adicional aumenta en 1d6 para cada nivel de ranura por encima de la 2a.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "2": "2d6",
+            "3": "3d6",
+            "4": "4d6",
+            "5": "5d6",
+            "6": "6d6",
+            "7": "7d6",
+            "8": "8d6",
+            "9": "9d6"
+        },
+        "classes": [
+            "Paladín"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "calm-emotions",
+        "name": "Calmar emociones",
+        "level": 2,
+        "school": "Encantado",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "Up to 1 minute",
+        "description": "Intentas suprimir emociones fuertes en un grupo de personas. Cada humanoide en una esfera de 20 pies hace una tirada de salvación de Carisma. Si falla, puedes: • Suprimir el efecto de estar hechizado o asustado, o • Hacer que los afectados sean indiferentes hacia criaturas que elijas durante 1 minuto (acaba si son atacados).",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "continual-flame",
+        "name": "Llama continua",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "Until dispelled",
+        "description": "Creas una llama mágica que arde sin calor ni consumo de oxígeno. Ilumina como una antorcha y no se apaga. Puede ser cubierta u ocultada, pero no apagada.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "darkness",
+        "name": "Oscuridad",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, M",
+        "duration": "Up to 10 minutes",
+        "description": "Creas una esfera de oscuridad mágica de 15 pies de radio en un punto del rango. La oscuridad se extiende a través de las esquinas. La visión normal y la visión en la oscuridad no penetran esta oscuridad, y la luz no mágica no la ilumina. La luz mágica de nivel 2 o menor queda anulada.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "darkvision",
+        "name": "Visión en la oscuridad",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "8 hours",
+        "description": "Concedes a una criatura voluntaria la habilidad de ver en la oscuridad hasta 60 pies como si fuera luz tenue, y en luz tenue como si fuera luz brillante. No permite ver colores en la oscuridad, solo tonos de gris.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida",
+            "Explorador",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "detect-thoughts",
+        "name": "Detectar pensamientos",
+        "level": 2,
+        "school": "Divinización",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Puedes leer la superficie de los pensamientos de una criatura en el rango. Como acción, puedes profundizar: el objetivo hace una salvación de Sabiduría. Si falla, conoces pensamientos más profundos. Si tiene éxito, el hechizo termina. En cualquier caso, el objetivo sabe que intentaste leer su mente.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "enhance-ability",
+        "name": "Mejorar característica",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "Up to 1 hour",
+        "description": "Concedes a una criatura un beneficio especial: • Fortaleza del toro: ventaja en pruebas de Fuerza y +2 PG temporales por nivel. • Astucia del zorro: ventaja en pruebas de Destreza. • Resistencia del oso: ventaja en Constitución y PG temporales. • Agudeza del búho: ventaja en Sabiduría. • Claridad del águila: ventaja en Carisma. • Intelecto del zorro: ventaja en Inteligencia.",
+        "higherLevel": "Cuando usted lanza este hechizo usando una ranura de hechizo de 3er nivel o superior, usted puede apuntar a una criatura adicional para cada nivel de ranura por encima de la 2a.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Druida",
+            "Hechicero"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "enlarge-reduce",
+        "name": "Aumentar/Reducir",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Cambias el tamaño de una criatura u objeto. • Aumentar: el objetivo duplica su tamaño en todas las dimensiones, su peso se multiplica por 8, y obtiene ventaja en pruebas de Fuerza y armas aumentan en un dado de daño. • Reducir: el objetivo se reduce a la mitad en todas las dimensiones, su peso se divide entre 8, y sus armas reducen en un dado de daño.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "enthrall",
+        "name": "Cautivar",
+        "level": 2,
+        "school": "Encantado",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "1 minute",
+        "description": "Te diriges a criaturas en un radio de 60 pies que puedan verte y oírte. Cada una hace una salvación de Sabiduría o queda distraída por ti, teniendo desventaja en pruebas de Sabiduría (Percepción) mientras te escuchen. El efecto termina si tú o tus aliados las atacáis.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Brujo"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "find-steed",
+        "name": "Encontrar corcel",
+        "level": 2,
+        "school": "Conjuración",
+        "castingTime": "10 minutes",
+        "range": "30 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Invocas un espíritu que toma la forma de un corcel fiel: caballo, poni, camello, alce o mastín. Tiene estadísticas de la criatura elegida, pero es celestial, feérico o infernal (a tu elección). Puedes comunicarte telepáticamente con él a 1 milla. Puede servirte como montura y actúa en tu turno. Puede ser invocado de nuevo si muere.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Paladín"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "find-traps",
+        "name": "Encontrar trampas",
+        "level": 2,
+        "school": "Divinización",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Sientes la presencia de cualquier trampa en el rango que esté dentro de tu línea de visión. Una trampa incluye cualquier cosa que inflija un efecto repentino y dañino, diseñado por su creador. El hechizo revela la presencia de la trampa, pero no su ubicación exacta, solo la naturaleza general del peligro.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Explorador"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "flame-blade",
+        "name": "Espada llameante",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "1 bonus action",
+        "range": "Self",
+        "components": "V, S, M",
+        "duration": "Up to 10 minutes",
+        "description": "Invocas una espada de fuego en tu mano. Es un arma cuerpo a cuerpo que inflige 3d6 de daño de fuego al impactar. Emite luz brillante en 10 pies y tenue en 10 más. Dura mientras te concentres.",
+        "higherLevel": "Cuando se lanza este hechizo utilizando una ranura de hechizo de 4o nivel o superior, el daño aumenta en 1d6 por cada dos niveles de ranura por encima de 2o.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "2": "3d6",
+            "4": "4d6",
+            "6": "5d6",
+            "8": "6d6"
+        },
+        "classes": [
+            "Druida"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "flaming-sphere",
+        "name": "Esfera llameante",
+        "level": 2,
+        "school": "Conjuración",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Creas una esfera de fuego de 5 pies de diámetro en un punto. Cualquier criatura que termine su turno a 5 pies de ella hace una salvación de Destreza o recibe 2d6 de daño de fuego. Puedes mover la esfera hasta 30 pies como acción. Prende objetos inflamables.",
+        "higherLevel": "Cuando se lanza este hechizo utilizando una ranura de hechizo de 3er nivel o superior, el daño aumenta en 1d6 para cada nivel de ranura por encima de la 2a.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "2": "2d6",
+            "3": "3d6",
+            "4": "4d6",
+            "5": "5d6",
+            "6": "6d6",
+            "7": "7d6",
+            "8": "8d6",
+            "9": "9d6"
+        },
+        "classes": [
+            "Druida",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "gentle-repose",
+        "name": "Reposo gentil",
+        "level": 2,
+        "school": "Necromancy",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "10 days",
+        "description": "Proteges un cadáver de la descomposición y de convertirse en no-muerto. Durante 10 días, el cuerpo no se descompone y no puede levantarse como no-muerto. Además, el tiempo que lleva muerto no cuenta para efectos como Revivify.",
+        "higherLevel": "",
+        "isRitual": true,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "gust-of-wind",
+        "name": "Ráfaga de viento",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Un viento fuerte de 60 pies de largo y 10 de ancho brota de ti en la dirección que elijas. Cada criatura que comience su turno en la línea debe superar una salvación de Fuerza o ser empujada 15 pies. El viento disipa gases y apaga llamas pequeñas.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "heat-metal",
+        "name": "Calentar metal",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Eliges un objeto metálico como arma o armadura. El metal arde intensamente. Una criatura que lo porte sufre 2d8 de daño por fuego y debe soltarlo si puede. Si no lo suelta, tiene desventaja en ataques y pruebas de característica hasta tu próximo turno. Como acción adicional, puedes repetir el daño mientras dure el hechizo.",
+        "higherLevel": "Cuando se lanza este hechizo utilizando una ranura de hechizo de 3er nivel o superior, el daño aumenta en 1d8 para cada nivel de ranura por encima de la 2a.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "2": "2d8",
+            "3": "3d8",
+            "4": "4d8",
+            "5": "5d8",
+            "6": "6d8",
+            "7": "7d8",
+            "8": "8d8",
+            "9": "9d8"
+        },
+        "classes": [
+            "Bardo",
+            "Druida"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "hold-person",
+        "name": "Paralizar persona",
+        "level": 2,
+        "school": "Encantado",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Eliges un humanoide en el rango. Debe superar una salvación de Sabiduría o quedar paralizado mientras dure. Al final de cada turno puede repetir la tirada.",
+        "higherLevel": "Cuando usted lanza este hechizo usando una ranura de hechizo de 3er nivel o superior, usted puede apuntar a un humanoide adicional para cada nivel de ranura por encima de 2do. Los humanoides deben estar a menos de 30 pies de uno al otro cuando se dirige a ellos.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Druida",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "invisibility",
+        "name": "Invisibilidad",
+        "level": 2,
+        "school": "Ilusión",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "Up to 1 hour",
+        "description": "Una criatura que toques se vuelve invisible hasta que el hechizo termine o ataque/lance un conjuro. Todo lo que porte también se vuelve invisible mientras lo lleve encima.",
+        "higherLevel": "Cuando usted lanza este hechizo usando una ranura de hechizo de 3er nivel o superior, usted puede apuntar a una criatura adicional para cada nivel de ranura por encima de la 2a.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "knock",
+        "name": "Apertura",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V",
+        "duration": "Instantaneous",
+        "description": "Eliges un objeto cerrado o bloqueado en el rango. Puede ser una puerta, cofre, grillete, etc. Se abre instantáneamente. Si estaba sellado mágicamente, el efecto se suspende 10 minutos. Un fuerte ruido se escucha a 300 pies.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "lesser-restoration",
+        "name": "Restauración menor",
+        "level": 2,
+        "school": "Abjuración",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Tocas una criatura y curas una enfermedad o condición que la afecte: ceguera, sordera, parálisis o veneno.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Druida",
+            "Paladín",
+            "Explorador"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "levitate",
+        "name": "Levitar",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S, M",
+        "duration": "Up to 10 minutes",
+        "description": "Una criatura u objeto sube hasta 20 pies en el aire y permanece suspendido mientras dure. Solo puede moverse empujándose contra superficies o tirado por alguien. Tú puedes moverla verticalmente 20 pies por turno.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "locate-animals-or-plants",
+        "name": "Localizar animales o plantas",
+        "level": 2,
+        "school": "Divinización",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S, M",
+        "duration": "Instantaneous",
+        "description": "Nombras un tipo de bestia o planta específica. Conoces la dirección de la más cercana a 5 millas si hay alguna.",
+        "higherLevel": "",
+        "isRitual": true,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Explorador"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "locate-object",
+        "name": "Localizar objeto",
+        "level": 2,
+        "school": "Divinización",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S, M",
+        "duration": "Up to 10 minutes",
+        "description": "Nombras un objeto familiar para ti. Detectas su dirección a 1000 pies. También puedes localizar el objeto más cercano de un tipo específico (ej. espada). No puede localizar objetos protegidos por plomo, o si está en otra forma distinta.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Druida",
+            "Paladín",
+            "Explorador",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "magic-mouth",
+        "name": "Boca mágica",
+        "level": 2,
+        "school": "Ilusión",
+        "castingTime": "1 minute",
+        "range": "30 feet",
+        "components": "V, S, M",
+        "duration": "Until dispelled",
+        "description": "Implantas un mensaje en un objeto. Cuando se cumple la condición que determines (ej. una criatura toca el objeto), una boca mágica aparece y pronuncia el mensaje grabado de hasta 25 palabras. Puede ser audible a 10 pies.",
+        "higherLevel": "",
+        "isRitual": true,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "magic-weapon",
+        "name": "Arma mágica",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 bonus action",
+        "range": "Touch",
+        "components": "V, S",
+        "duration": "Up to 1 hour",
+        "description": "Tocas un arma no mágica. Mientras dure, se vuelve mágica y obtiene un bono de +1 a las tiradas de ataque y daño.",
+        "higherLevel": "Cuando se lanza este hechizo usando una ranura de hechizo de 4o nivel o superior, el bono aumenta a +2. Cuando se utiliza una ranura de hechizo de 6o nivel o superior, el bono aumenta a +3.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Paladín",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "mirror-image",
+        "name": "Imagen múltiple",
+        "level": 2,
+        "school": "Ilusión",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S",
+        "duration": "1 minute",
+        "description": "Creas tres duplicados ilusorios de ti que se mueven contigo. Cada vez que una criatura te ataca, tira un d20 para ver si impacta a un duplicado. Un duplicado tiene CA 10 + tu modificador de Destreza y se destruye si recibe daño. El hechizo termina cuando todos los duplicados se destruyen.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "misty-step",
+        "name": "Paso brumoso",
+        "level": 2,
+        "school": "Conjuración",
+        "castingTime": "1 bonus action",
+        "range": "Self",
+        "components": "V",
+        "duration": "Instantaneous",
+        "description": "Te rodea una breve niebla plateada y te teletransportas hasta 30 pies a un espacio que puedas ver.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "moonbeam",
+        "name": "Rayo lunar",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Una columna de luz pálida desciende en un área de 5 pies de radio y 40 pies de altura. Una criatura que entre o comience su turno en la zona hace una salvación de Constitución, sufriendo 2d10 de daño radiante si falla, la mitad si acierta. Los cambiaformas tiran con desventaja.",
+        "higherLevel": "Cuando se lanza este hechizo utilizando una ranura de hechizo de 3er nivel o superior, el daño aumenta en 1dl0 para cada nivel de ranura por encima de 2o.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "2": "2d10",
+            "3": "3d10",
+            "4": "4d10",
+            "5": "5d10",
+            "6": "6d10",
+            "7": "7d10",
+            "8": "8d10",
+            "9": "9d10"
+        },
+        "classes": [
+            "Druida"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "pass-without-trace",
+        "name": "Paso sin rastro",
+        "level": 2,
+        "school": "Abjuración",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S, M",
+        "duration": "Up to 1 hour",
+        "description": "Un velo de sombra cubre a ti y a tus aliados en un radio de 30 pies. Cada criatura recibe +10 en pruebas de Destreza (Sigilo) y no puede ser rastreada excepto por medios mágicos.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida",
+            "Explorador"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "prayer-of-healing",
+        "name": "Oración de sanación",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "10 minutes",
+        "range": "30 feet",
+        "components": "V",
+        "duration": "Instantaneous",
+        "description": "Hasta seis criaturas de tu elección que veas en el rango recuperan 2d8 + tu modificador de característica de lanzamiento de conjuros en puntos de golpe. El lanzamiento tarda 10 minutos.",
+        "higherLevel": "Cuando se lanza este hechizo utilizando una ranura de hechizo de 3er nivel o superior, la curación aumenta en 1d8 para cada nivel de ranura por encima de la 2a.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "protection-from-poison",
+        "name": "Protección contra veneno",
+        "level": 2,
+        "school": "Abjuración",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S",
+        "duration": "1 hour",
+        "description": "Tocas una criatura. Neutralizas un veneno que la afecte, le das ventaja en salvaciones contra veneno y resistencia al daño por veneno mientras dure el hechizo.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Paladín",
+            "Explorador"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "ray-of-enfeeblement",
+        "name": "Rayo debilitador",
+        "level": 2,
+        "school": "Necromancy",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "Up to 1 minute",
+        "description": "Un rayo negro impacta a una criatura en el rango. Haz una tirada de ataque de conjuro a distancia: con éxito, el objetivo solo inflige la mitad del daño con armas que usen Fuerza. Al final de su turno puede repetir una salvación de Constitución para acabar el efecto.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "rope-trick",
+        "name": "Truco de la cuerda",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "1 hour",
+        "description": "Una cuerda de hasta 60 pies que toques se eleva en el aire y queda suspendida. Una entrada invisible se abre al final de la cuerda hacia un espacio extradimensional que puede albergar hasta 8 criaturas medianas. Desde dentro, los ocupantes pueden mirar fuera, pero nadie puede ver dentro. La cuerda puede retirarse para cerrar el acceso. La entrada dura hasta el final del hechizo.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "scorching-ray",
+        "name": "Rayo abrasador",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Creas tres rayos de fuego y los lanzas a objetivos dentro del rango. Puedes lanzarlos a una o varias criaturas. Haz una tirada de ataque de conjuro a distancia por cada rayo. Con éxito, el objetivo sufre 2d6 de daño por fuego.",
+        "higherLevel": "Cuando lanzas este hechizo usando una ranura de hechizo de tercer nivel o superior, creas un rayo adicional para cada nivel de ranura por encima de la segunda.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": {
+            "2": "2d6"
+        },
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "see-invisibility",
+        "name": "Ver lo invisible",
+        "level": 2,
+        "school": "Divinización",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S, M",
+        "duration": "1 hour",
+        "description": "Durante la duración, puedes ver criaturas y objetos invisibles como si fueran visibles. También puedes ver el Plano Etéreo superpuesto en el tuyo, hasta 10 pies.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "shatter",
+        "name": "Estallido",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S, M",
+        "duration": "Instantaneous",
+        "description": "Un sonido atronador resuena en un punto del rango. Cada criatura en una esfera de 10 pies de radio hace una salvación de Constitución, sufriendo 3d8 de daño de trueno si falla, la mitad si acierta. Las criaturas inorgánicas (como constructos o cristal) tienen desventaja en la tirada. Los objetos no asegurados también sufren el daño.",
+        "higherLevel": "Cuando se lanza este hechizo usando una ranura de hechizo de 3 o más niveles, el daño del hechizo aumenta en 1d8 para cada nivel de ranura de hechizo superior 2.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": {
+            "2": "3d8",
+            "3": "4d8",
+            "4": "5d8",
+            "5": "6d8",
+            "6": "7d8",
+            "7": "8d8",
+            "8": "9d8",
+            "9": "10d8"
+        },
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "silence",
+        "name": "Silencio",
+        "level": 2,
+        "school": "Ilusión",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Up to 10 minutes",
+        "description": "Creas una esfera de silencio de 20 pies de radio centrada en un punto del rango. Ningún sonido puede crearse ni pasar a través de la esfera. Las criaturas en el área son inmunes al daño de trueno y están sordas mientras permanezcan dentro.",
+        "higherLevel": "",
+        "isRitual": true,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Explorador"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "spider-climb",
+        "name": "Trepar cual araña",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "Up to 1 hour",
+        "description": "Concedes a una criatura la habilidad de moverse por superficies verticales y techos mientras tenga las manos libres. Su velocidad de trepar es igual a su velocidad de caminar.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "spike-growth",
+        "name": "Tormenta de espinas",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "150 feet",
+        "components": "V, S, M",
+        "duration": "Up to 10 minutes",
+        "description": "El terreno en un radio de 20 pies se cubre de espinas y zarzas. Se convierte en terreno difícil. Una criatura que atraviese el área sufre 2d4 de daño perforante por cada 5 pies que se mueva. Las espinas están camufladas y requieren una prueba de Sabiduría (Percepción) contra tu CD de conjuros para detectarlas.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida",
+            "Explorador"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "spiritual-weapon",
+        "name": "Arma espiritual",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "1 bonus action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "1 minute",
+        "description": "Creas un arma espectral flotante a 60 pies. Dura mientras te concentres. Cuando aparece, puedes hacer un ataque cuerpo a cuerpo con conjuro contra una criatura a 5 pies del arma. Con éxito, inflige 1d8 + tu modificador de característica de lanzamiento de conjuros en daño de fuerza. Como acción adicional, puedes mover el arma 20 pies y atacar de nuevo.",
+        "higherLevel": "Cuando se lanza este hechizo utilizando una ranura de hechizo de 3er nivel o superior, el daño aumenta en 1d8 por cada dos niveles de ranura por encima de la 2a.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": {
+            "2": "1d8 + MOD",
+            "3": "1d8 + MOD",
+            "4": "2d8 + MOD",
+            "5": "2d8 + MOD",
+            "6": "3d8 + MOD",
+            "7": "3d8 + MOD",
+            "8": "4d8 + MOD",
+            "9": "4d8 + MOD"
+        },
+        "classes": [
+            "Clérigo"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "suggestion",
+        "name": "Sugerencia",
+        "level": 2,
+        "school": "Encantado",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "V, M",
+        "duration": "Up to 8 hours",
+        "description": "Sugieres mágicamente una acción razonable a una criatura en el rango que pueda oírte y entenderte. Debe superar una salvación de Sabiduría o seguir la sugerencia lo mejor que pueda durante la duración. La acción no puede ser obviamente dañina. Si tú o tus aliados dañan al objetivo, el hechizo termina.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "warding-bond",
+        "name": "Vínculo protector",
+        "level": 2,
+        "school": "Abjuración",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "1 hour",
+        "description": "Creas un vínculo místico entre tú y una criatura voluntaria a 60 pies. El objetivo recibe +1 a la CA y a las salvaciones, y resistencia a todo daño. Cada vez que recibe daño, tú recibes la misma cantidad. El hechizo termina si os separáis más de 60 pies.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "web",
+        "name": "Telaraña",
+        "level": 2,
+        "school": "Conjuración",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S, M",
+        "duration": "Up to 1 hour",
+        "description": "Lanzas telarañas gruesas que llenan un cubo de 20 pies. El área se convierte en terreno difícil y está fuertemente oscurecida. Las criaturas que entren o empiecen su turno en el área hacen una salvación de Destreza o quedan apresadas. Las telarañas son inflamables y arden en un cubo de 20 pies, causando 2d4 de daño por fuego a las criaturas atrapadas.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "zone-of-truth",
+        "name": "Zona de la verdad",
+        "level": 2,
+        "school": "Encantado",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "10 minutes",
+        "description": "Creas una zona mágica de 15 pies de radio. Las criaturas dentro deben superar una salvación de Carisma o no podrán mentir mientras estén en el área. Tú sabrás qué criaturas han fallado su salvación. Pueden evitar contestar, pero no mentir.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Paladín"
+        ],
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "skywrite",
+        "name": "Escritura celeste",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 minuto",
+        "range": "Vista",
+        "components": "V, S",
+        "duration": "Concentración, hasta 1 hora",
+        "description": "Escribes hasta diez palabras en el cielo con nubes. El mensaje permanece hasta que termina el conjuro. Un viento fuerte puede disipar la escritura después de 1d4 minutos.",
+        "higherLevel": null,
+        "isRitual": true,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "pyrotechnics",
+        "name": "Pirotecnia",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 acción",
+        "range": "60 pies",
+        "components": "V, S",
+        "duration": "Instantánea",
+        "description": "Eliges un fuego no mágico de tamaño Mediano o más pequeño para crear una ráfaga de humo denso (cegando temporalmente a las criaturas) o una llamarada cegadora (imponiendo desventaja en ataques). El fuego se extingue.",
+        "higherLevel": null,
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "warding-wind",
+        "name": "Viento de salvaguardia",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "1 acción",
+        "range": "Personal",
+        "components": "V",
+        "duration": "Concentración, hasta 1 minuto",
+        "description": "Un viento fuerte te rodea en un radio de 10 pies. El viento apaga llamas, crea desventaja en ataques a distancia contra ti y dispersa gases. Las criaturas en el área tienen desventaja en las tiradas de ataque contra ti.",
+        "higherLevel": null,
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "aganazzars-scorcher",
+        "name": "Abrasador de Aganazzar",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "1 acción",
+        "range": "30 pies",
+        "components": "V, S, M",
+        "duration": "Instantánea",
+        "description": "Una línea de fuego de 30 pies de largo y 5 pies de ancho emana de ti. Cada criatura debe realizar una tirada de salvación de **Destreza**, recibiendo **daño por fuego** si falla, o la mitad si tiene éxito.",
+        "higherLevel": "La descripción del daño base es para ranura de nivel 2.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": {
+            "2": "3d8",
+            "3": "4d8",
+            "4": "5d8",
+            "5": "6d8",
+            "6": "7d8",
+            "7": "8d8",
+            "8": "9d8",
+            "9": "10d8"
+        },
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "maximilans-earthen-grasp",
+        "name": "Agarre de tierra de Maximiliano",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 acción",
+        "range": "30 pies",
+        "components": "V, S, M",
+        "duration": "Concentración, hasta 1 minuto",
+        "description": "Una mano de roca y tierra emerge del suelo. Puedes usar una acción adicional para ordenar a la mano que aplaste a una criatura a 5 pies de ella, infligiendo 2d6 de **daño contundente** y sometiéndola al efecto de **Agarrado** (Grappled). (El daño no escala con ranura).",
+        "higherLevel": null,
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "dragons-breath",
+        "name": "Aliento del dragón",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 acción adicional",
+        "range": "Toque",
+        "components": "V, S, M",
+        "duration": "Concentración, hasta 1 minuto",
+        "description": "Tocas a una criatura voluntaria. La criatura puede usar su acción para exhalar un cono de 15 pies de **daño** (ácido, frío, fuego, relámpago o veneno). Las criaturas en el cono reciben **daño** si fallan la salvación de Destreza.",
+        "higherLevel": "La descripción del daño base es para ranura de nivel 2.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "2": "3d6",
+            "3": "4d6",
+            "4": "5d6",
+            "5": "6d6",
+            "6": "7d6",
+            "7": "8d6",
+            "8": "9d6",
+            "9": "10d6"
+        },
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "earthbind",
+        "name": "Atar a la Tierra",
+        "level": 2,
+        "school": "Transmutación",
+        "castingTime": "1 acción",
+        "range": "300 pies",
+        "components": "V",
+        "duration": "Concentración, hasta 1 minuto",
+        "description": "Eliges a una criatura voladora. Debe tener éxito en una tirada de salvación de **Fuerza** o su velocidad de vuelo se reduce a 0 por la duración. Si está volando, cae. (El efecto no escala con ranura).",
+        "higherLevel": null,
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Brujo",
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "mind-spike",
+        "name": "Espina mental",
+        "level": 2,
+        "school": "Adivinación",
+        "castingTime": "1 acción",
+        "range": "60 pies",
+        "components": "S",
+        "duration": "Concentración, hasta 1 hora",
+        "description": "El objetivo debe tener éxito en una tirada de salvación de **Sabiduría** o recibir **daño psíquico** y no puede ser invisible ni ocultarse de ti.",
+        "higherLevel": "La descripción del daño base es para ranura de nivel 2.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "2": "3d8",
+            "3": "4d8",
+            "4": "5d8",
+            "5": "6d8",
+            "6": "7d8",
+            "7": "8d8",
+            "8": "9d8",
+            "9": "10d8"
+        },
+        "classes": [
+            "Brujo",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "shadow-blade",
+        "name": "Hoja de sombra",
+        "level": 2,
+        "school": "Ilusión",
+        "castingTime": "1 acción adicional",
+        "range": "Personal",
+        "components": "V, S",
+        "duration": "Concentración, hasta 1 minuto",
+        "description": "Conjuras una hoja de sombra que sirve como arma simple. Inflige **daño psíquico**. Tienes ventaja en la tirada de ataque si atacas en oscuridad tenue u oscuridad.",
+        "higherLevel": "El dado de daño tiene un escalado no lineal con el nivel de la ranura, según la descripción de la Guía de Xanathar para Todo.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "2": "2d8",
+            "3": "3d8",
+            "5": "4d8",
+            "7": "5d8"
+        },
+        "classes": [
+            "Brujo",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "dust-devil",
+        "name": "Diablo de polvo",
+        "level": 2,
+        "school": "Conjuración",
+        "castingTime": "1 acción",
+        "range": "60 pies",
+        "components": "V, S, M",
+        "duration": "Concentración, hasta 1 minuto",
+        "description": "Aparece un remolino de aire. Las criaturas a 5 pies de él deben tener éxito en una salvación de **Fuerza** o recibir **daño contundente** y ser empujadas 10 pies. Puedes moverlo 20 pies como acción adicional.",
+        "higherLevel": "La descripción del daño base es para ranura de nivel 2.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "2": "1d8",
+            "3": "2d8",
+            "4": "3d8",
+            "5": "4d8",
+            "6": "5d8",
+            "7": "6d8",
+            "8": "7d8",
+            "9": "8d8"
+        },
+        "classes": [
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "snillocs-snowball-swarm",
+        "name": "Tormenta de bolas de nieve de Snilloc",
+        "level": 2,
+        "school": "Evocación",
+        "castingTime": "1 acción",
+        "range": "90 pies",
+        "components": "V, S, M",
+        "duration": "Instantánea",
+        "description": "Una bandada de bolas de nieve heladas cae sobre un área de 5 pies de radio. Las criaturas deben hacer una salvación de **Destreza**, recibiendo **daño por frío** si fallan, o la mitad si tienen éxito.",
+        "higherLevel": "La descripción del daño base es para ranura de nivel 2.",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": {
+            "2": "3d6",
+            "3": "4d6",
+            "4": "5d6",
+            "5": "6d6",
+            "6": "7d6",
+            "7": "8d6",
+            "8": "9d6",
+            "9": "10d6"
+        },
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "healing-spirit",
+        "name": "Espíritu curativo",
+        "level": 2,
+        "school": "Conjuración",
+        "castingTime": "1 acción",
+        "range": "60 pies",
+        "components": "V, S",
+        "duration": "Concentración, hasta 1 minuto",
+        "description": "Invocas un espíritu feérico. Cuando una criatura entra o comienza su turno en su espacio, restaura **puntos de golpe**. Puedes mover el espíritu 30 pies como acción adicional.",
+        "higherLevel": "La curación es la que escala.",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": {
+            "2": "1d6",
+            "3": "2d6",
+            "4": "3d6",
+            "5": "4d6",
+            "6": "5d6",
+            "7": "6d6",
+            "8": "7d6",
+            "9": "8d6"
+        },
+        "classes": [
+            "Druida",
+            "Explorador"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "tce-summon-beast",
+        "name": "Invocar Bestia",
+        "level": 2,
+        "school": "Conjuración",
+        "castingTime": "1 acción",
+        "range": "90 pies",
+        "components": "V, S, M (un fragmento de pelaje, pluma o escama)",
+        "duration": "Concentración, hasta 1 hora",
+        "description": "Invocas un espíritu bestial. El espíritu manifiesta una forma terrestre, acuática o aérea de tu elección. Aparece en un espacio desocupado que puedas ver. El espíritu es una criatura, es amigable contigo y tus compañeros, y actúa en tu turno. Consulta las estadísticas del Espíritu Bestial. Las estadísticas mejoran con ranuras de conjuro más altas.",
+        "higherLevel": "Cuando lanzas este conjuro usando una ranura de conjuro de 3er nivel o superior, el HP y el daño del espíritu aumentan.",
+        "isRitual": true,
+        "isConcentration": true,
+        "classes": [
+            "Druida",
+            "Explorador"
+        ],
+        "source": "El Caldero de Tasha para Todo"
+    },
+    {
+        "id": "tce-tashas-mind-whip",
+        "name": "Látigo Mental de Tasha",
+        "level": 2,
+        "school": "Encantamiento",
+        "castingTime": "1 acción",
+        "range": "90 pies",
+        "components": "V",
+        "duration": "Instantánea",
+        "description": "Una criatura en el alcance debe hacer una tirada de salvación de **Inteligencia**. Si falla, recibe 3d6 de daño psíquico y debe elegir inmediatamente una de las siguientes opciones: 1) Moverse hasta 20 pies en una dirección que tú no especifiques. 2) Caer Próximo. 3) Usar una reacción para realizar un ataque de oportunidad cuerpo a cuerpo contra una criatura de tu elección.",
+        "higherLevel": "Cuando lanzas este conjuro usando una ranura de conjuro de tercer nivel o superior, el daño aumenta en 1d6 por cada nivel de ranura por encima del 2do.",
+        "damageAtSlotLevel": {
+            "2": "3d6",
+            "3": "4d6",
+            "4": "5d6",
+            "5": "6d6",
+            "6": "7d6",
+            "7": "8d6",
+            "8": "9d6",
+            "9": "10d6"
+        },
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "El Caldero de Tasha para Todo"
+    }
+]

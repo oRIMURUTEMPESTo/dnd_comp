@@ -1,0 +1,87 @@
+# -----------------------------------------------------------------------------
+# ARCHIVOS GENERALES Y DE SISTEMA
+# -----------------------------------------------------------------------------
+# Ignora archivos del sistema operativo macOS
+.DS_Store
+
+# Ignora archivos de registro y temporales
+*.log
+*.swp
+*.pyc
+
+# -----------------------------------------------------------------------------
+# HERRAMIENTAS DE DESARROLLO (IDEs)
+# -----------------------------------------------------------------------------
+# Ignora archivos de configuración de IntelliJ/Android Studio
+.idea/
+
+# Ignora la carpeta de VS Code (opcional, si no quieres compartir configuraciones de launch)
+# Descomenta la línea de abajo si decides no incluirla
+#.vscode/
+
+# -----------------------------------------------------------------------------
+# FLUTTER / DART / PUB
+# -----------------------------------------------------------------------------
+# Directorios de compilación y artefactos (LOS MÁS PESADOS)
+/build/
+
+# Artefactos de la documentación generada
+**/doc/api/
+
+# Herramientas de Dart (caché de análisis)
+.dart_tool/
+
+# Archivos de caché y bloqueos de paquetes (dependencias)
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Información de cobertura de pruebas
+/coverage/
+
+# -----------------------------------------------------------------------------
+# PLATAFORMA ANDROID
+# -----------------------------------------------------------------------------
+# Propiedades locales específicas de tu máquina (Ruta al SDK)
+android/local.properties
+
+# Archivos de compilación y caché de Gradle
+/android/.gradle
+/android/captures/
+
+# Archivos de firma o claves (¡NUNCA deben subirse!)
+android/key.properties
+
+# Artefactos de compilación (ya cubiertos por /build/, pero útil para ser explícito)
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# -----------------------------------------------------------------------------
+# PLATAFORMA iOS
+# -----------------------------------------------------------------------------
+# Enlaces simbólicos generados por los plugins
+/ios/.symlinks
+
+# Archivos de build y módulos generados
+/ios/Flutter/.ios
+/ios/Flutter/App.framework
+/ios/Flutter/engine/
+/ios/Flutter/Generated.xcconfig
+/ios/Runner.xcworkspace/
+
+# -----------------------------------------------------------------------------
+# OTRAS PLATAFORMAS (Si tu proyecto es multi-plataforma)
+# -----------------------------------------------------------------------------
+/linux/build/
+/macos/build/
+/windows/build/
+/web/
+
+# -----------------------------------------------------------------------------
+# SÍMBOLOS Y OBFUSCACIÓN
+# -----------------------------------------------------------------------------
+# Archivos usados para symbolication y desobfuscación
+app.*.symbols
+app.*.map.json

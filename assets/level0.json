@@ -1,0 +1,1042 @@
+[
+    {
+        "id": "acid-splash",
+        "name": "Salpicadura ácida",
+        "level": 0,
+        "school": "Conjuración",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Lanzas una pequeña burbuja de ácido. Elige una criatura dentro del alcance, o dos criaturas dentro del alcance que estén a 5 pies o menos entre sí. Cada objetivo debe tener éxito en una tirada de salvación de Destreza o sufrir 1d6 puntos de daño por ácido. El daño aumenta a 2d6 al nivel 5, 3d6 al nivel 11 y 4d6 al nivel 17.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "chill-touch",
+        "name": "Toque gélido",
+        "level": 0,
+        "school": "Necromancy",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "1 round",
+        "description": "Creas una mano espectral y esquelética en el espacio de una criatura dentro del alcance. Haz un ataque de hechizo a distancia contra la criatura. Si impactas, el objetivo recibe 1d8 puntos de daño necrótico y no puede recuperar puntos de golpe hasta el comienzo de tu siguiente turno. Si golpeas a un muerto viviente, además tiene desventaja en sus tiradas de ataque contra ti hasta el final de tu siguiente turno. El daño aumenta a 2d8 en nivel 5, 3d8 en nivel 11 y 4d8 en nivel 17.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "dancing-lights",
+        "name": "Luces danzantes",
+        "level": 0,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Creas hasta cuatro luces del tamaño de una antorcha dentro del alcance, que pueden aparecer como antorchas, linternas o esferas brillantes que flotan en el aire durante la duración. Puedes combinar las cuatro luces en una forma vagamente humanoide de tamaño mediano. Cada luz proyecta luz tenue en un radio de 10 pies. Como acción de bonificación en tu turno, puedes mover las luces hasta 60 pies; cada luz debe estar a menos de 20 pies de otra creada por este hechizo. Una luz se apaga si excede el alcance del hechizo.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Mago"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "druidcraft",
+        "name": "Saber druídico",
+        "level": 0,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Susurrando a los espíritus de la naturaleza, creas uno de los siguientes efectos dentro del alcance: (1) Un efecto sensorial diminuto e inofensivo que predice el tiempo local durante las próximas 24 horas (por ejemplo, un orbe dorado para cielo despejado, una nube para lluvia, copos de nieve para nieve). Este efecto persiste 1 ronda. (2) Haces que una flor brote inmediatamente o que una pequeña semilla germine. (3) Creas un efecto sensorial inofensivo instantáneo (hojas que caen, un soplo de viento, el sonido de un animal pequeño, etc.) que cabe en un cubo de 5 pies. (4) Enciendes o apagas instantáneamente una vela, una antorcha o una pequeña hoguera.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "eldritch-blast",
+        "name": "Eldritch Blast",
+        "level": 0,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Un rayo de energía chispeante se lanza hacia una criatura dentro del alcance. Haz un ataque de hechizo a distancia contra el objetivo. Si impactas, el objetivo recibe 1d10 puntos de daño de fuerza. El hechizo crea más de un rayo a niveles más altos: dos rayos al nivel 5, tres al nivel 11 y cuatro al nivel 17. Puedes dirigir los rayos al mismo objetivo o a objetivos distintos, haciendo una tirada de ataque por rayo.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Brujo"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "fire-bolt",
+        "name": "Rayo de fuego",
+        "level": 0,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Lanzas una mota de fuego hacia una criatura u objeto dentro de tu alcance. Haz un ataque de hechizo a distancia contra el objetivo. Si impactas, el objetivo recibe 1d10 puntos de daño por fuego. Un objeto inflamable golpeado por este hechizo se enciende si no está siendo usado o llevado. El daño aumenta a 2d10 en nivel 5, 3d10 en nivel 11 y 4d10 en nivel 17.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "guidance",
+        "name": "Orientación",
+        "level": 0,
+        "school": "Divinización",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S",
+        "duration": "Up to 1 minute",
+        "description": "Hasta que el hechizo termine, una vez antes de que finalice su duración el objetivo puede tirar un d4 y añadir el resultado a una prueba de habilidad de su elección. Puede tirar el d4 antes o después de hacer la prueba. Después de usarlo, el hechizo termina.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Druida"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "light",
+        "name": "Luz",
+        "level": 0,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, M",
+        "duration": "1 hour",
+        "description": "Tocas un objeto que no sea mayor de 10 pies en cualquier dimensión. Hasta que el hechizo termine, el objeto emite luz brillante en un radio de 20 pies y luz tenue por otros 20 pies. Puedes colorear la luz a tu gusto. Cubrir completamente el objeto con algo opaco bloquea la luz. El hechizo termina si lo lanzas de nuevo o lo deshaces como acción. Si apuntas a un objeto que una criatura sostiene o lleva, esa criatura debe tener éxito en una tirada de salvación de Destreza para evitar que el hechizo le afecte.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Hechicero",
+            "Mago"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "mage-hand",
+        "name": "Mano de mago",
+        "level": 0,
+        "school": "Conjuración",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "V, S",
+        "duration": "1 minute",
+        "description": "Una mano espectral y flotante aparece en un punto que eliges dentro del alcance. La mano dura la duración o hasta que la descartes como acción. Desaparece si se sitúa a más de 30 pies de ti o si lanzas este hechizo de nuevo. Puedes usar tu acción para controlar la mano. Puede manipular un objeto, abrir una puerta o contenedor desbloqueado, guardar o recuperar un artículo de un contenedor abierto, o verter el contenido de un frasco. Puedes mover la mano hasta 30 pies cada vez que la uses. La mano no puede atacar, activar objetos mágicos ni llevar más de 10 libras.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "mending",
+        "name": "Reparar",
+        "level": 0,
+        "school": "Transmutación",
+        "castingTime": "1 minute",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "Instantaneous",
+        "description": "Este hechizo repara una sola rotura o desgarro en un objeto que tocas, como una llave rota, una capa rasgada o un odre que gotea. Mientras la rotura no sea mayor de 1 pie en cualquier dimensión, lo reparas por completo, sin dejar rastro del daño anterior. Este hechizo puede restaurar la forma física de un objeto mágico, pero no restaura su magia.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Bardo",
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "message",
+        "name": "Mensaje",
+        "level": 0,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "120 feet",
+        "components": "V, S, M",
+        "duration": "1 round",
+        "description": "Susurras un mensaje que solo una criatura designada en alcance puede oír, y esa criatura puede responderte en un susurro que solo tú oirás. Puedes lanzar el hechizo a través de objetos sólidos si conoces la ubicación del objetivo: el hechizo puede penetrar hasta 1 pie de piedra, 1 pulgada de metal común, una hoja delgada de plomo o 3 pies de madera. No necesita seguir una línea recta.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Mago"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "minor-illusion",
+        "name": "Ilusión menor",
+        "level": 0,
+        "school": "Ilusión",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "S, M",
+        "duration": "1 minute",
+        "description": "Creas un sonido o la imagen de un objeto dentro del alcance que dura la duración. Si creas un sonido, su volumen puede variar desde un susurro hasta un grito; puede ser la voz de una criatura o cualquier otro sonido y puede repetirse o variar en momentos distintos mientras dure el hechizo. Si creas la imagen de un objeto (por ejemplo, una silla, huellas, o un pequeño cofre), no debe ocupar más de un cubo de 5 pies. La imagen no puede producir sonido, luz, olor ni ningún otro efecto sensorial. La interacción física con la imagen revela que es una ilusión. Si una criatura usa su acción para inspeccionar la ilusión, puede intentar una tirada de Inteligencia (Investigación) contra tu DC de hechizo; si tiene éxito, reconoce la ilusión por lo que es.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "poison-spray",
+        "name": "Pulverización venenosa",
+        "level": 0,
+        "school": "Conjuración",
+        "castingTime": "1 action",
+        "range": "10 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Extiendes la mano hacia una criatura que puedes ver dentro del alcance y expulsas una bocanada de gas venenoso desde tu palma. La criatura debe tener éxito en una tirada de salvación de Constitución o sufrir 1d12 puntos de daño por veneno. El daño aumenta a 2d12 en nivel 5, 3d12 en nivel 11 y 4d12 en nivel 17.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Brujo",
+            "Mago",
+            "Druida"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "prestidigitation",
+        "name": "Prestidigitación",
+        "level": 0,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "10 feet",
+        "components": "V, S",
+        "duration": "1 hour",
+        "description": "Este hechizo es un truco menor de magia que los hechiceros novatos usan para entretenerse y hacer tareas menores. Creas uno de los siguientes efectos mágicos dentro del alcance: un efecto sensorial inofensivo (una lluvia de chispas, un soplo de viento, notas musicales suaves o un olor pasajero); encender o apagar una vela, antorcha o pequeña hoguera; limpiar o ensuciar instantáneamente un objeto de hasta 1 pie cúbico; enfriar, calentar o sazonar hasta 1 pie cúbico de material no vivo durante 1 hora; hacer aparecer un color, una marca pequeña o un símbolo en un objeto o superficie durante 1 hora; o crear una baratija no mágica o una pequeña imagen ilusoria que quepa en tu mano y que dura hasta el final de tu siguiente turno. Si lanzas este hechizo varias veces, puedes tener hasta tres de sus efectos instantáneos activos a la vez; puedes descartarlos como acción.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "produce-flame",
+        "name": "Crear llama",
+        "level": 0,
+        "school": "Conjuración",
+        "castingTime": "1 action",
+        "range": "Self",
+        "components": "V, S",
+        "duration": "10 minutes",
+        "description": "Una llama parpadeante aparece en tu mano. La llama no te quema ni daña tu equipo. Proporciona luz brillante en un radio de 10 pies y luz tenue por otros 10 pies. El hechizo termina si lo descartas como acción o si lo lanzas de nuevo. Puedes atacar con la llama; como parte de lanzar el hechizo o como una acción en tu turno posterior, puedes lanzar la llama a una criatura a menos de 30 pies. Haz un ataque de hechizo a distancia; si impactas, el objetivo recibe 1d8 puntos de daño por fuego. El daño aumenta a 2d8 en nivel 5, 3d8 en nivel 11 y 4d8 en nivel 17.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "ray-of-frost",
+        "name": "Rayo de escarcha",
+        "level": 0,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Un rayo gélido de luz azulada surge hacia una criatura dentro del alcance. Haz un ataque de hechizo a distancia contra el objetivo. Si impactas, el objetivo recibe 1d8 puntos de daño por frío y su velocidad se reduce en 10 pies hasta el comienzo de su siguiente turno. El daño aumenta a 2d8 en nivel 5, 3d8 en nivel 11 y 4d8 en nivel 17.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "resistance",
+        "name": "Resistencia",
+        "level": 0,
+        "school": "Abjuración",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "Up to 1 minute",
+        "description": "Hasta que termine la duración, una vez antes de que finalice el hechizo el objetivo puede tirar un d4 y añadir el resultado a una tirada de salvación de su elección. Puede tirar el d4 antes o después de hacer la tirada de salvación. Tras usarlo, el hechizo termina.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo",
+            "Druida"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "sacred-flame",
+        "name": "Llama sagrada",
+        "level": 0,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "El objetivo debe tener éxito en una tirada de salvación de Destreza o recibir 1d8 puntos de daño radiante. El objetivo no recibe el beneficio de la cobertura en esta tirada de salvación. El daño aumenta a 2d8 en nivel 5, 3d8 en nivel 11 y 4d8 en nivel 17.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "shillelagh",
+        "name": "Shillelagh",
+        "level": 0,
+        "school": "Transmutación",
+        "castingTime": "1 bonus action",
+        "range": "Touch",
+        "components": "V, S, M",
+        "duration": "1 minute",
+        "description": "La madera de un garrote o de un bastón largo que sostienes se imbuye del poder de la naturaleza. Mientras dure el hechizo, puedes usar tu modificador de habilidad de hechizo en lugar de la Fuerza para las tiradas de ataque y daño de ese arma, y el daño del arma pasa a ser 1d8. El arma también se vuelve mágica, si no lo era ya. El hechizo termina si lo lanzas de nuevo o si sueltas el arma.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Druida"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "shocking-grasp",
+        "name": "Toque chocante",
+        "level": 0,
+        "school": "Evocación",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Un relámpago brota de tu mano para golpear a una criatura que intentas tocar. Haz un ataque de hechizo cuerpo a cuerpo contra el objetivo. Tienes ventaja en la tirada de ataque si el objetivo lleva armadura metálica. Si impactas, el objetivo recibe 1d8 puntos de daño por rayo y no puede tomar reacciones hasta el comienzo de su siguiente turno. El daño aumenta a 2d8 en nivel 5, 3d8 en nivel 11 y 4d8 en nivel 17.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Hechicero",
+            "Mago"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "spare-the-dying",
+        "name": "Salvar al moribundo",
+        "level": 0,
+        "school": "Necromancy",
+        "castingTime": "1 action",
+        "range": "Touch",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "description": "Tocas a una criatura viva que tiene 0 puntos de golpe. La criatura queda estabilizada. Este hechizo no tiene efecto sobre muertos vivientes o constructos.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "thaumaturgy",
+        "name": "Taumaturgia",
+        "level": 0,
+        "school": "Transmutación",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "V",
+        "duration": "1 minute",
+        "description": "Manifiestas un portentoso efecto menor dentro del alcance. Puedes elegir uno de los siguientes efectos: tu voz suena hasta tres veces más fuerte de lo normal durante 1 minuto; haces que las llamas parpadeen, brillen, palidezcan o cambien de color durante 1 minuto; causas temblores inofensivos en el suelo durante 1 minuto; creas un sonido instantáneo que procede de un punto que elijas dentro del alcance (un retumbo, el graznido de un cuervo, susurros, etc.); haces que una puerta o ventana desbloqueada se abra o cierre de golpe; o alteras la apariencia de tus ojos durante 1 minuto. Si lanzas este hechizo varias veces, puedes tener hasta tres efectos de 1 minuto activos a la vez; puedes descartar cualquiera como acción.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Clérigo"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "true-strike",
+        "name": "Golpe certero",
+        "level": 0,
+        "school": "Divinización",
+        "castingTime": "1 action",
+        "range": "30 feet",
+        "components": "S",
+        "duration": "Up to 1 round",
+        "description": "Señalas un objetivo que esté a tu alcance y obtienes una breve visión de sus defensas. En tu próximo turno, obtienes ventaja en tu primer ataque contra ese objetivo, siempre que este hechizo no haya terminado.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": true,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "vicious-mockery",
+        "name": "Burla cruel",
+        "level": 0,
+        "school": "Encantado",
+        "castingTime": "1 action",
+        "range": "60 feet",
+        "components": "V",
+        "duration": "Instantaneous",
+        "description": "Desatas una serie de insultos encantados dirigidos a una criatura que puedas ver. Si el objetivo puede oírte (aunque no necesita entenderte), debe tener éxito en una tirada de salvación de Sabiduría o sufrir 1d4 puntos de daño psíquico y tener desventaja en la siguiente tirada de ataque que haga antes del final de su siguiente turno. El daño aumenta a 2d4 en nivel 5, 3d4 en nivel 11 y 4d4 en nivel 17.",
+        "higherLevel": "",
+        "isRitual": false,
+        "isConcentration": false,
+        "damageAtSlotLevel": null,
+        "classes": [
+            "Bardo"
+        ],
+        "damageAtCharacterLevel": {
+            "1": "1dX",
+            "5": "2dX",
+            "11": "3dX",
+            "17": "4dX"
+        },
+        "source": "Guía del Jugador"
+    },
+    {
+        "id": "thunderclap",
+        "name": "Palmada atronadora",
+        "level": 0,
+        "school": "Evocación",
+        "castingTime": "1 acción",
+        "range": "Personal (radio de 5 pies)",
+        "components": "S",
+        "duration": "Instantánea",
+        "description": "Un sonido ensordecedor resuena a 5 pies de ti. Cada criatura a 5 pies (que no seas tú) debe superar una tirada de salvación de **Constitución** o recibir **daño por trueno**.",
+        "damageAtCharacterLevel": {
+            "1": "1d6",
+            "5": "2d6",
+            "11": "3d6",
+            "17": "4d6"
+        },
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "frostbite",
+        "name": "Congelación",
+        "level": 0,
+        "school": "Evocación",
+        "castingTime": "1 acción",
+        "range": "60 pies",
+        "components": "V, S",
+        "duration": "Instantánea",
+        "description": "La criatura objetivo debe superar una tirada de salvación de **Constitución**. Si falla, recibe **daño por frío** y tiene **desventaja** en su próxima tirada de ataque antes del final de su siguiente turno.",
+        "damageAtCharacterLevel": {
+            "1": "1d6",
+            "5": "2d6",
+            "11": "3d6",
+            "17": "4d6"
+        },
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Druida",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "control-flames",
+        "name": "Controlar llamas",
+        "level": 0,
+        "school": "Transmutación",
+        "castingTime": "1 acción",
+        "range": "60 pies",
+        "components": "S",
+        "duration": "Instantánea o 1 hora",
+        "description": "Realizas un cambio menor y no dañino en una llama no mágica dentro del alcance, como cambiar el color, aumentar o disminuir su tamaño (hasta 5 pies) o extinguirla.",
+        "damageAtCharacterLevel": null,
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "create-bonfire",
+        "name": "Crear hoguera",
+        "level": 0,
+        "school": "Conjuración",
+        "castingTime": "1 acción",
+        "range": "60 pies",
+        "components": "V, S",
+        "duration": "Concentración, hasta 1 minuto",
+        "description": "Conjuras una hoguera de 5 pies de cubo en un espacio desocupado. Cualquier criatura que entre o inicie su turno allí recibe **daño por fuego**.",
+        "damageAtCharacterLevel": {
+            "1": "1d8",
+            "5": "2d8",
+            "11": "3d8",
+            "17": "4d8"
+        },
+        "isRitual": false,
+        "isConcentration": true,
+        "classes": [
+            "Artífice",
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "infestation",
+        "name": "Infestación",
+        "level": 0,
+        "school": "Conjuración",
+        "castingTime": "1 acción",
+        "range": "30 pies",
+        "components": "V, S, M",
+        "duration": "Instantánea",
+        "description": "El objetivo debe superar una tirada de salvación de **Constitución**. Si falla, recibe **daño por veneno** y debe moverse 5 pies en una dirección aleatoria.",
+        "damageAtCharacterLevel": {
+            "1": "1d6",
+            "5": "2d6",
+            "11": "3d6",
+            "17": "4d6"
+        },
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "mold-earth",
+        "name": "Moldear tierra",
+        "level": 0,
+        "school": "Transmutación",
+        "castingTime": "1 acción",
+        "range": "30 pies",
+        "components": "S",
+        "duration": "Instantánea o 1 hora",
+        "description": "Manipulas hasta un cubo de 5 pies de tierra, arena o arcilla, creando zanjas, cubriendo objetos o alterando ligeramente la elevación del terreno (solo efectos no dañinos).",
+        "damageAtCharacterLevel": null,
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "magic-stone",
+        "name": "Piedra mágica",
+        "level": 0,
+        "school": "Transmutación",
+        "castingTime": "1 acción adicional",
+        "range": "Toque",
+        "components": "V, S",
+        "duration": "1 minuto",
+        "description": "Tocas hasta tres guijarros no mágicos. Cada uno se vuelve mágico para ataques a distancia con conjuros, causando 1d6 + modificador de lanzamiento de conjuros de **daño contundente**. (El daño no escala con el nivel del personaje)",
+        "damageAtCharacterLevel": null,
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Artífice",
+            "Druida"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "gust",
+        "name": "Ráfaga",
+        "level": 0,
+        "school": "Transmutación",
+        "castingTime": "1 acción",
+        "range": "30 pies",
+        "components": "V, S",
+        "duration": "Instantánea",
+        "description": "Creas una ráfaga de viento. Puedes empujar una criatura pequeña o más pequeña 5 pies, dispersar gases en un radio de 10 pies o mover objetos ligeros.",
+        "damageAtCharacterLevel": null,
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "primal-savagery",
+        "name": "Salvajismo primigenio",
+        "level": 0,
+        "school": "Transmutación",
+        "castingTime": "1 acción",
+        "range": "Toque",
+        "components": "S",
+        "duration": "Instantánea",
+        "description": "Tus manos se transforman en garras o colmillos, realizando un ataque de arma cuerpo a cuerpo que inflige **daño por ácido**.",
+        "damageAtCharacterLevel": {
+            "1": "1d10",
+            "5": "2d10",
+            "11": "3d10",
+            "17": "4d10"
+        },
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Druida"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "toll-the-dead",
+        "name": "Tocar a los muertos",
+        "level": 0,
+        "school": "Nigromancia",
+        "castingTime": "1 acción",
+        "range": "60 pies",
+        "components": "V, S",
+        "duration": "Instantánea",
+        "description": "El objetivo debe superar una tirada de salvación de **Sabiduría** o recibir **daño necrótico**. Si el objetivo NO tiene todos sus puntos de golpe, recibe el dado mayor de daño en su lugar.",
+        "damageAtCharacterLevel": {
+            "1": "1d8/1d12",
+            "5": "2d8/2d12",
+            "11": "3d8/3d12",
+            "17": "4d8/4d12"
+        },
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Clérigo",
+            "Brujo"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "word-of-radiance",
+        "name": "Palabra de resplandor",
+        "level": 0,
+        "school": "Evocación",
+        "castingTime": "1 acción",
+        "range": "5 pies",
+        "components": "V",
+        "duration": "Instantánea",
+        "description": "Cada criatura a 5 pies de ti (que no seas tú) debe superar una tirada de salvación de **Constitución** o recibir **daño radiante**.",
+        "damageAtCharacterLevel": {
+            "1": "1d6",
+            "5": "2d6",
+            "11": "3d6",
+            "17": "4d6"
+        },
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Clérigo"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "shape-water",
+        "name": "Transformar agua",
+        "level": 0,
+        "school": "Transmutación",
+        "castingTime": "1 acción",
+        "range": "30 pies",
+        "components": "S",
+        "duration": "Instantánea o 1 hora",
+        "description": "Manipulas hasta un cubo de 5 pies de agua, creando formas, cambiando su flujo, o creando una capa de hielo (no dañino) en un área de 5 pies de lado.",
+        "damageAtCharacterLevel": null,
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Druida",
+            "Hechicero",
+            "Mago"
+        ],
+        "source": "Guía de Xanathar para Todo"
+    },
+    {
+        "id": "tce-mind-sliver",
+        "name": "Astilla Mental",
+        "level": 0,
+        "school": "Encantamiento",
+        "castingTime": "1 acción",
+        "range": "60 pies",
+        "components": "V",
+        "duration": "Instantánea",
+        "description": "Una criatura en el alcance debe hacer una tirada de salvación de **Inteligencia**. Si falla, recibe daño psíquico. Además, la próxima tirada de salvación que haga antes del final de tu próximo turno tiene una penalización de 1d4. Este conjuro no tiene efecto en criaturas sin la característica de Inteligencia.",
+        "damageAtCharacterLevel": {
+            "1": "1d6",
+            "5": "2d6",
+            "11": "3d6",
+            "17": "4d6"
+        },
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "El Caldero de Tasha para Todo"
+    },
+    {
+        "id": "tce-lightning-lure",
+        "name": "Atracción del Relámpago",
+        "level": 0,
+        "school": "Evocación",
+        "castingTime": "1 acción",
+        "range": "Toque (15 pies)",
+        "components": "V",
+        "duration": "Instantánea",
+        "description": "Un relámpago crepita en tu mano. Una criatura a menos de 15 pies debe hacer una tirada de salvación de **Fuerza**. Si falla, recibe daño eléctrico. Además, si es de tamaño Grande o menor, es atraída hasta 10 pies hacia ti.",
+        "damageAtCharacterLevel": {
+            "1": "1d8",
+            "5": "2d8",
+            "11": "3d8",
+            "17": "4d8"
+        },
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Artífice",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "El Caldero de Tasha para Todo"
+    },
+    {
+        "id": "tce-booming-blade",
+        "name": "Filo Atronador",
+        "level": 0,
+        "school": "Evocación",
+        "castingTime": "1 acción",
+        "range": "5 pies",
+        "components": "S, M (un arma)",
+        "duration": "1 asalto",
+        "description": "Como parte del lanzamiento, debes realizar un ataque cuerpo a cuerpo con arma contra una criatura. Si el ataque impacta, el objetivo recibe daño adicional por trueno si se mueve voluntariamente antes del inicio de tu próximo turno.",
+        "damageAtCharacterLevel": {
+            "1": "1d8",
+            "5": "1d8",
+            "11": "2d8",
+            "17": "3d8"
+        },
+        "higherLevel": "El daño adicional por trueno aumenta en 1d8 en los niveles 5, 11 y 17.",
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Artífice",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "El Caldero de Tasha para Todo"
+    },
+    {
+        "id": "tce-green-flame-blade",
+        "name": "Filo de Llamas Verdes",
+        "level": 0,
+        "school": "Evocación",
+        "castingTime": "1 acción",
+        "range": "5 pies",
+        "components": "S, M (un arma)",
+        "duration": "Instantánea",
+        "description": "Como parte del lanzamiento, debes realizar un ataque cuerpo a cuerpo con arma contra una criatura. Si impacta, una criatura diferente a 5 pies del objetivo inicial recibe daño por fuego. La segunda criatura no recibe daño si el ataque inicial falla.",
+        "damageAtCharacterLevel": {
+            "1": "1d8",
+            "5": "1d8",
+            "11": "2d8",
+            "17": "3d8"
+        },
+        "higherLevel": "El daño por fuego al segundo objetivo aumenta en 1d8 en los niveles 5, 11 y 17.",
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Artífice",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "El Caldero de Tasha para Todo"
+    },
+    {
+        "id": "tce-sword-burst",
+        "name": "Estallido de Espadas",
+        "level": 0,
+        "school": "Conjuración",
+        "castingTime": "1 acción",
+        "range": "5 pies",
+        "components": "V",
+        "duration": "Instantánea",
+        "description": "Haces girar armas espectrales que atacan a todas las criaturas a 5 pies de ti (que no seas tú). Cada criatura debe superar una tirada de salvación de **Destreza** o recibir daño de fuerza.",
+        "damageAtCharacterLevel": {
+            "1": "1d6",
+            "5": "2d6",
+            "11": "3d6",
+            "17": "4d6"
+        },
+        "isRitual": false,
+        "isConcentration": false,
+        "classes": [
+            "Artífice",
+            "Hechicero",
+            "Brujo",
+            "Mago"
+        ],
+        "source": "El Caldero de Tasha para Todo"
+    }
+]
